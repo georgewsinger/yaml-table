@@ -1,0 +1,165 @@
+Building ...
+Compiling src/yaml_table/core.cljs
+Compiling src/yaml_table/config.cljs
+clojure.lang.ExceptionInfo: failed compiling file:src/yaml_table/config.cljs {:file #object[java.io.File 0x24b68add "src/yaml_table/config.cljs"]}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at cljs.compiler$compile_file$fn__4246.invoke(compiler.cljc:1343)
+	at cljs.compiler$compile_file.invoke(compiler.cljc:1310)
+	at cljs.closure$compile_file.invoke(closure.clj:434)
+	at cljs.closure$eval4703$fn__4704.invoke(closure.clj:491)
+	at cljs.closure$eval4642$fn__4643$G__4631__4650.invoke(closure.clj:391)
+	at cljs.closure$compile_sources$iter__4806__4810$fn__4811.invoke(closure.clj:755)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.Cons.next(Cons.java:39)
+	at clojure.lang.RT.next(RT.java:674)
+	at clojure.core$next__4112.invoke(core.clj:64)
+	at clojure.core$dorun.invoke(core.clj:3010)
+	at clojure.core$doall.invoke(core.clj:3025)
+	at cljs.closure$compile_sources.invoke(closure.clj:751)
+	at cljs.closure$build.invoke(closure.clj:1807)
+	at cljs.closure$watch$buildf__5196.invoke(closure.clj:1889)
+	at cljs.closure$watch.invoke(closure.clj:1919)
+	at cljs.repl$repl_STAR_$fn__5723$fn__5728.invoke(repl.cljc:881)
+	at clojure.core$binding_conveyor_fn$fn__4444.invoke(core.clj:1916)
+	at clojure.lang.AFn.run(AFn.java:22)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: clojure.lang.ExceptionInfo: Could not locate cljs_asynchronize/macros__init.class or cljs_asynchronize/macros.clj on classpath. Please check that namespaces with dashes use underscores in the Clojure file name. {:tag :cljs/analysis-error}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at cljs.analyzer$error.invoke(analyzer.cljc:568)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2586)
+	at cljs.compiler$compile_file_STAR_$fn__4206.invoke(compiler.cljc:1221)
+	at cljs.compiler$with_core_cljs.invoke(compiler.cljc:1149)
+	at cljs.compiler$compile_file_STAR_.invoke(compiler.cljc:1172)
+	at cljs.compiler$compile_file$fn__4246.invoke(compiler.cljc:1331)
+	... 20 more
+Caused by: java.io.FileNotFoundException: Could not locate cljs_asynchronize/macros__init.class or cljs_asynchronize/macros.clj on classpath. Please check that namespaces with dashes use underscores in the Clojure file name.
+	at clojure.lang.RT.load(RT.java:449)
+	at clojure.lang.RT.load(RT.java:412)
+	at clojure.core$load$fn__5448.invoke(core.clj:5866)
+	at clojure.core$load.doInvoke(core.clj:5865)
+	at clojure.lang.RestFn.invoke(RestFn.java:408)
+	at clojure.core$load_one.invoke(core.clj:5671)
+	at clojure.core$load_lib$fn__5397.invoke(core.clj:5711)
+	at clojure.core$load_lib.doInvoke(core.clj:5710)
+	at clojure.lang.RestFn.applyTo(RestFn.java:142)
+	at clojure.core$apply.invoke(core.clj:632)
+	at clojure.core$load_libs.doInvoke(core.clj:5749)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:632)
+	at clojure.core$require.doInvoke(core.clj:5832)
+	at clojure.lang.RestFn.invoke(RestFn.java:408)
+	at cljs.analyzer$ns_side_effects.invoke(analyzer.cljc:2503)
+	at cljs.analyzer$analyze_STAR_$fn__3197.invoke(analyzer.cljc:2573)
+	at clojure.lang.PersistentVector.reduce(PersistentVector.java:333)
+	at clojure.core$reduce.invoke(core.clj:6518)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2573)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	... 24 more
+
+Watching paths: /home/george/Dropbox/yaml-table/src
+Change detected, recompiling ...
+Compiling src/yaml_table/config.cljs
+WARNING: Use of undeclared Var config.core/c2 at line 10 src/yaml_table/config.cljs
+WARNING: Wrong number of args (1) passed to config.core/yaml-config-string->chan-matching-yaml-object at line 34 src/yaml_table/config.cljs
+... done. Elapsed 0.267175143 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+WARNING: Use of undeclared Var config.core/c2 at line 10 src/yaml_table/config.cljs
+WARNING: Wrong number of args (1) passed to config.core/yaml-config-string->chan-matching-yaml-object at line 34 src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.495083367 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/config.cljs
+WARNING: Wrong number of args (1) passed to config.core/yaml-config-string->chan-matching-yaml-object at line 34 src/yaml_table/config.cljs
+... done. Elapsed 0.332489654 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+WARNING: Wrong number of args (1) passed to config.core/yaml-config-string->chan-matching-yaml-object at line 34 src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.569685302 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/config.cljs
+WARNING: Wrong number of args (1) passed to config.core/yaml-config-string->chan-matching-yaml-object at line 33 src/yaml_table/config.cljs
+... done. Elapsed 0.237200533 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+WARNING: Wrong number of args (1) passed to config.core/yaml-config-string->chan-matching-yaml-object at line 33 src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.482060683 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+WARNING: Wrong number of args (1) passed to config.core/yaml-config-string->chan-matching-yaml-object at line 34 src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.52516498 seconds
+Change detected, recompiling ...
+... done. Elapsed 0.092832519 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/config.cljs
+... done. Elapsed 0.250453738 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.49544547 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.537742737 seconds
+Change detected, recompiling ...
+... done. Elapsed 0.098928278 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/config.cljs
+... done. Elapsed 0.204219886 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.499227915 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/config.cljs
+... done. Elapsed 0.238392352 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.508893235 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/config.cljs
+... done. Elapsed 0.229916087 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.477778081 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/config.cljs
+... done. Elapsed 0.226956663 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.495788312 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.51077923 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.534223371 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/config.cljs
+... done. Elapsed 0.259036636 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.441047056 seconds

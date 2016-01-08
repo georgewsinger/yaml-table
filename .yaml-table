@@ -1,4 +1,5 @@
 ---
+file_extension: ".dec"
 options:
         skinny: true
         intersectionCharacter: "Y"

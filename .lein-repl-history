@@ -291,3 +291,4 @@ as
 (string->num-yaml-docs "---\nfag: fuck\n...")
 (if (= 5 5) "expert at clojure")
 (if (= 5 6) "expert at clojure")
+(load-file "repl.clj")
