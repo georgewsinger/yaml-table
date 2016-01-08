@@ -6,7 +6,9 @@
 (defn chan-matching-yaml-object->chan-array-columns [c1]
   (let [c2 (chan 1)]
     (go 
-     (>! c2 (.-columns (<! c1))))
+     ;(println "fastest coder ever:" (<! c1))
+     (>! c2 (.-columns (.-options (<! c1))))
+    )
   c2))
 
 (defn string->num-yaml-docs [s]
@@ -23,8 +25,10 @@
     c    (chan 1)]
    (go (.safeLoadAll yaml s
          (fn [returned-yaml-object] 
+	   (def heh returned-yaml-object)
            (go 
-            (if (= returned-yaml-object.file_extesion ext)
+            (if (= (.-file_extesion returned-yaml-object) ext)
+	      (println "inside if: " returned-yaml-object)
               (>! c returned-yaml-object)
               (close! c)))))) 
    c))
@@ -34,4 +38,4 @@
     (yaml-config-string->chan-matching-yaml-object 
       (.readFileSync (node/require "fs") "/home/george/Dropbox/yaml-table/.yaml-table" "utf8") ext)))
 
-(yaml-table-config->chan-array-columns ".dec")
+(go (println (<! (yaml-table-config->chan-array-columns ".dec"))))
