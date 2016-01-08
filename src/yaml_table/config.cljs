@@ -1,8 +1,14 @@
-(defn chan-matching-yaml-object->chan-columns-object [c1]
+(ns config.core
+  (:require [cljs.nodejs :as node]
+            [cljs.core.async :refer [close! take! put! chan <! >! alts!]])
+  (:require-macros [cljs.core.async.macros :refer [go go-loop]]
+                   [cljs-asynchronize.macros :as dm :refer [asynchronize]]))
+
+(defn chan-matching-yaml-object->chan-array-columns [c1]
   (let [c2 (chan 1)]
     (go 
-     (>! c2 (.-columns (<! c1))))
-  c2))
+     (>! c2 (.-columns (<! c1)))))
+  c2)
 
 (defn string->num-yaml-docs [s]
   (min
@@ -24,14 +30,14 @@
               (close! c)))))) 
    c))
 
-(defn yaml-table-config->chan-array-header-columns [ext])
-  (get-yaml-config string synchronously)
-  (determine how many documents n are in the config string)
-  (fill channel of size 1 with first yaml document that matches ext)
-  (suck document from channel and convert it into js array columns object)
-  (construct js columns object from matching object; stick it in channel))
+(defn yaml-table-config->chan-array-columns [ext]
+  (chan-matching-yaml-object->chan-array-columns
+    (yaml-config-string->chan-matching-yaml-object 
+      ((.readFileSync (node/require "fs") ".yaml-table" "utf8") ext))))
 
-  -> (.readFileSync (node/require "fs") ".yaml-table" "utf8") ; make this a function
-     (yaml-config-string->chan-matching-yaml-object)
-     (chan-matching-yaml-object->chan-columns-object)
-     
+#_(defn yaml-table-config->chan-array-header-columns [ext]
+    (get-yaml-config string synchronously)
+    (determine how many documents n are in the config string)
+    (fill channel of size 1 with first yaml document that matches ext)
+    (suck document from channel and convert it into js array columns object)
+    (construct js columns object from matching object)); stick it in channel))
