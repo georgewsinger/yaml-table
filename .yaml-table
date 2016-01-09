@@ -1,8 +1,41 @@
 ---
 file_extension: ".dec"
+sort_field: "date"
 options:
         skinny: true
         intersectionCharacter: "Y"
+        columns:
+                - 
+                 field: "date"
+                 name: "Date"
+                -
+                 field: "decision"
+                 name: "Decision"
+                -
+                 field: "hypothesis"
+                 name: "Hypothesis"
+                -
+                 field: "exposure"
+                 name: "Exposure"
+                -
+                 field: "probability"
+                 name: "Pr"
+                -
+                 field: "outcome"
+                 name: "Outcome"
+                -
+                 field: "brier_score"
+                 name: "B.S."
+                -
+                 field: "expiration"
+                 name: "Exp"
+...
+---
+file_extension: ".dez"
+sort_field: "date"
+options:
+        skinny: true
+        intersectionCharacter: "Z"
         columns:
                 - 
                  field: "date"

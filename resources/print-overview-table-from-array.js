@@ -55,4 +55,17 @@ printOverviewTableFromArray = function(arr, argDays) {
 	arr = stripNullFromOverviewRows(arr, argDays);
 }
 
+//this function ought presume that arr is already sorted
+printExtTableFromArray = function(ext, options, arr) {
+	//get ./.yaml-table options object
+
+	//get .yaml-table sort field
+
+	//QWERTY: make these functions to jam shit down a channel
+	//sort arr --> make this seperate function
+	//strip arr from nulls --> make this seperate function
+
+	console.log(asciitable(options, arr));
+}
+
 module.exports.printOverviewTableFromArray = printOverviewTableFromArray;
