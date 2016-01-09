@@ -58,20 +58,11 @@
         argv     (minimist (clj->js (vec args)))
 	ext      (or (.-e argv) "yaml")
 	path     (or (aget (aget argv "_") 0) "/home/george/Dropbox") ;□ >1 paths; default path
-        rows     (or (.-r argv) 10)
-	;path (str (first heh))
-        ;days (js/parseInt (second heh))
+        rows     (or (js/parseInt (.-r argv)) 10)
         ;cv (-> path path->chan-vec-dec-strings)
         ;mf (comp string->yaml-object-chan file-path->string-with-contents)]
        ]
 
-	(println "argv: " argv)
-	(println "ext: " ext)
-	(println "path: " path)
-	(println "rows: " rows)
-       ;(.log js/console (clj->js heh))
-       ; 
-       ;(.dir js/console (minimist (clj->js heh)))
     ;(go 
     ;  (let [one (mapv mf (<! cv))]
     ;    (chan-array-of-objects-yaml->table 

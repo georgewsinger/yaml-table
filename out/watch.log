@@ -2373,3 +2373,66 @@ Compiling src/yaml_table/core.cljs
 ... done. Elapsed 0.382343901 seconds
 Change detected, recompiling ...
 ... done. Elapsed 0.081075999 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.348910758 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.429634375 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.321937288 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.426141154 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.316260081 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.37319337 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.327132322 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.395238722 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.371206225 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.499884252 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.413477086 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.40350187 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.338541194 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.411770826 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.361875692 seconds
