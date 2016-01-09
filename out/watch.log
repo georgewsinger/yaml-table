@@ -2863,3 +2863,89 @@ Compiling out/cljs/nodejs.cljs
 Compiling /home/george/Dropbox/yaml-table/src/yaml_table/config.cljs
 Compiling src/yaml_table/core.cljs
 ... done. Elapsed 0.415113666 seconds
+Change detected, recompiling ...
+Compiling out/cljs/core/async/impl/protocols.cljs
+Compiling out/cljs/core/async/impl/buffers.cljs
+Compiling out/cljs/core/async/impl/dispatch.cljs
+Compiling out/cljs/core/async/impl/channels.cljs
+Compiling out/cljs/core/async/impl/ioc_helpers.cljs
+Compiling out/cljs/core/async/impl/timers.cljs
+Compiling out/cljs/core/async.cljs
+Compiling out/cljs/nodejs.cljs
+Compiling /home/george/Dropbox/yaml-table/src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 4.088813484 seconds
+Change detected, recompiling ...
+... done. Elapsed 0.092897499 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.48178585 seconds
+Change detected, recompiling ...
+... done. Elapsed 0.080990809 seconds
+Change detected, recompiling ...
+Compiling out/cljs/core/async/impl/protocols.cljs
+Compiling out/cljs/core/async/impl/buffers.cljs
+Compiling out/cljs/core/async/impl/dispatch.cljs
+Compiling out/cljs/core/async/impl/channels.cljs
+Compiling out/cljs/core/async/impl/timers.cljs
+Compiling out/cljs/core/async/impl/ioc_helpers.cljs
+Compiling out/cljs/core/async.cljs
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 3.93252357 seconds
+Change detected, recompiling ...
+... done. Elapsed 0.094639196 seconds
+Change detected, recompiling ...
+Compiling out/cljs/core/async/impl/protocols.cljs
+Compiling out/cljs/core/async/impl/buffers.cljs
+Compiling out/cljs/core/async/impl/dispatch.cljs
+Compiling out/cljs/core/async/impl/channels.cljs
+Compiling out/cljs/core/async/impl/timers.cljs
+Compiling out/cljs/core/async/impl/ioc_helpers.cljs
+Compiling out/cljs/core/async.cljs
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 4.645428301 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.549767917 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling /home/george/Dropbox/yaml-table/src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.421360257 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling /home/george/Dropbox/yaml-table/src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.416833048 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.35439482 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling /home/george/Dropbox/yaml-table/src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.402838857 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling /home/george/Dropbox/yaml-table/src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.438108517 seconds
+Change detected, recompiling ...
+... done. Elapsed 0.09572915 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling /home/george/Dropbox/yaml-table/src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.471155757 seconds
+Change detected, recompiling ...
+... done. Elapsed 0.089844259 seconds
+Change detected, recompiling ...
+... done. Elapsed 0.098431728 seconds

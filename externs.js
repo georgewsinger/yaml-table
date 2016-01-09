@@ -6,7 +6,7 @@ var fs = {};
 fs.readFileSync = function(file, utf8str) {};
 
 var res = {};
-res.printYamleTable = function(yamlConfig, arr, argDays) {};
+res.printYamlTable = function(yamlConfig, arr, argDays) {};
 
 var yaml = {};
 yaml.safeLoadAll = function(string, callbackFunc) {};

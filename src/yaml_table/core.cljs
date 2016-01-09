@@ -40,7 +40,7 @@
           (recur (vec (remove #{p} ov)) (conj tv v))))
     ) c ))
 
-
+;
 (defn chan-table-package->table [yaml-config-chan arr-chan rows]
   (let 
     [res (node/require "../resources/print-yaml-table.js")]
@@ -67,4 +67,4 @@
             arr-chan (vector-with-channels->channel-with-array one)]
         (chan-table-package->table yaml-config-chan arr-chan rows)))))
 
-(set! *main-cli-fn* -main)
+(set! *main-cli-fn* -main);
