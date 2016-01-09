@@ -53,14 +53,23 @@
     c ))
 
 (defn -main [& heh]
-  (let [ path (str (first heh))
-        days (js/parseInt (second heh))
-        cv (-> path path->chan-vec-dec-strings)
-        mf (comp string->yaml-object-chan file-path->string-with-contents)]
+  (let [
+	minimist (node/require "minimist")
+	;path (str (first heh))
+        ;days (js/parseInt (second heh))
+        ;cv (-> path path->chan-vec-dec-strings)
+        ;mf (comp string->yaml-object-chan file-path->string-with-contents)]
+       ]
 
-    (go 
-      (let [one (mapv mf (<! cv))]
-        (chan-array-of-objects-yaml->table 
-          (vector-with-channels->channel-with-array one) days)))))
+       (.dir js/console (minimist (clj->js (vec heh))))
+       ;(.log js/console (clj->js heh))
+       ; 
+       ;(.dir js/console (minimist (clj->js heh)))
+    ;(go 
+    ;  (let [one (mapv mf (<! cv))]
+    ;    (chan-array-of-objects-yaml->table 
+    ;      (vector-with-channels->channel-with-array one) days)))
+
+  ))
 
 (set! *main-cli-fn* -main)

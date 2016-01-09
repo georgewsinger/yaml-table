@@ -21,3 +21,6 @@ node.process.argv = {};
 var global = {};
 function require(){};
 function process(){};
+
+var minimist = {};
+//var minimist = function(arg1){};

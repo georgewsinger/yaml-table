@@ -659,3 +659,1184 @@ Compiling out/cljs/nodejs.cljs
 Compiling src/yaml_table/config.cljs
 Compiling src/yaml_table/core.cljs
 ... done. Elapsed 0.400439864 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/config.cljs
+... done. Elapsed 0.236195014 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.480261939 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+clojure.lang.ExceptionInfo: failed compiling file:src/yaml_table/core.cljs {:file #object[java.io.File 0x8c2943c "src/yaml_table/core.cljs"]}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at cljs.compiler$compile_file$fn__4246.invoke(compiler.cljc:1343)
+	at cljs.compiler$compile_file.invoke(compiler.cljc:1310)
+	at cljs.closure$compile_file.invoke(closure.clj:434)
+	at cljs.closure$eval4703$fn__4704.invoke(closure.clj:491)
+	at cljs.closure$eval4642$fn__4643$G__4631__4650.invoke(closure.clj:391)
+	at cljs.closure$compile_sources$iter__4806__4810$fn__4811.invoke(closure.clj:755)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.Cons.next(Cons.java:39)
+	at clojure.lang.RT.next(RT.java:674)
+	at clojure.core$next__4112.invoke(core.clj:64)
+	at clojure.core$dorun.invoke(core.clj:3010)
+	at clojure.core$doall.invoke(core.clj:3025)
+	at cljs.closure$compile_sources.invoke(closure.clj:751)
+	at cljs.closure$build.invoke(closure.clj:1807)
+	at cljs.closure$watch$buildf__5196.invoke(closure.clj:1889)
+	at cljs.closure$watch.invoke(closure.clj:1938)
+	at cljs.repl$repl_STAR_$fn__5723$fn__5728.invoke(repl.cljc:881)
+	at clojure.core$binding_conveyor_fn$fn__4444.invoke(core.clj:1916)
+	at clojure.lang.AFn.run(AFn.java:22)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: clojure.lang.ExceptionInfo: Unmatched delimiter ) {:type :reader-exception, :line 67, :column 67, :file "/home/george/Dropbox/yaml-table/src/yaml_table/core.cljs"}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at clojure.tools.reader.reader_types$reader_error.doInvoke(reader_types.clj:331)
+	at clojure.lang.RestFn.invoke(RestFn.java:439)
+	at clojure.tools.reader$read_unmatched_delimiter.invoke(reader.clj:76)
+	at clojure.tools.reader$read_STAR_.invoke(reader.clj:889)
+	at clojure.tools.reader$read_delimited.invoke(reader.clj:195)
+	at clojure.tools.reader$read_vector.invoke(reader.clj:226)
+	at clojure.tools.reader$read_STAR_.invoke(reader.clj:889)
+	at clojure.tools.reader$read_delimited.invoke(reader.clj:195)
+	at clojure.tools.reader$read_list.invoke(reader.clj:208)
+	at clojure.tools.reader$read_STAR_.invoke(reader.clj:889)
+	at clojure.tools.reader$read_delimited.invoke(reader.clj:195)
+	at clojure.tools.reader$read_list.invoke(reader.clj:208)
+	at clojure.tools.reader$read_STAR_.invoke(reader.clj:889)
+	at clojure.tools.reader$read.invoke(reader.clj:938)
+	at cljs.analyzer$forms_seq_STAR_$forms_seq___3205$fn__3206$fn__3207.invoke(analyzer.cljc:2626)
+	at cljs.analyzer$forms_seq_STAR_$forms_seq___3205$fn__3206.invoke(analyzer.cljc:2619)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:507)
+	at clojure.core$seq__4128.invoke(core.clj:137)
+	at cljs.compiler$compile_file_STAR_$fn__4206.invoke(compiler.cljc:1219)
+	at cljs.compiler$with_core_cljs.invoke(compiler.cljc:1149)
+	at cljs.compiler$compile_file_STAR_.invoke(compiler.cljc:1172)
+	at cljs.compiler$compile_file$fn__4246.invoke(compiler.cljc:1331)
+	... 20 more
+
+Change detected, recompiling ...
+... done. Elapsed 0.080382815 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+clojure.lang.ExceptionInfo: failed compiling file:src/yaml_table/core.cljs {:file #object[java.io.File 0x780aec69 "src/yaml_table/core.cljs"]}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at cljs.compiler$compile_file$fn__4246.invoke(compiler.cljc:1343)
+	at cljs.compiler$compile_file.invoke(compiler.cljc:1310)
+	at cljs.closure$compile_file.invoke(closure.clj:434)
+	at cljs.closure$eval4703$fn__4704.invoke(closure.clj:491)
+	at cljs.closure$eval4642$fn__4643$G__4631__4650.invoke(closure.clj:391)
+	at cljs.closure$compile_sources$iter__4806__4810$fn__4811.invoke(closure.clj:755)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.Cons.next(Cons.java:39)
+	at clojure.lang.RT.next(RT.java:674)
+	at clojure.core$next__4112.invoke(core.clj:64)
+	at clojure.core$dorun.invoke(core.clj:3010)
+	at clojure.core$doall.invoke(core.clj:3025)
+	at cljs.closure$compile_sources.invoke(closure.clj:751)
+	at cljs.closure$build.invoke(closure.clj:1807)
+	at cljs.closure$watch$buildf__5196.invoke(closure.clj:1889)
+	at cljs.closure$watch.invoke(closure.clj:1938)
+	at cljs.repl$repl_STAR_$fn__5723$fn__5728.invoke(repl.cljc:881)
+	at clojure.core$binding_conveyor_fn$fn__4444.invoke(core.clj:1916)
+	at clojure.lang.AFn.run(AFn.java:22)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: clojure.lang.ExceptionInfo: Unmatched delimiter ) {:type :reader-exception, :line 67, :column 66, :file "/home/george/Dropbox/yaml-table/src/yaml_table/core.cljs"}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at clojure.tools.reader.reader_types$reader_error.doInvoke(reader_types.clj:331)
+	at clojure.lang.RestFn.invoke(RestFn.java:439)
+	at clojure.tools.reader$read_unmatched_delimiter.invoke(reader.clj:76)
+	at clojure.tools.reader$read_STAR_.invoke(reader.clj:889)
+	at clojure.tools.reader$read_delimited.invoke(reader.clj:195)
+	at clojure.tools.reader$read_vector.invoke(reader.clj:226)
+	at clojure.tools.reader$read_STAR_.invoke(reader.clj:889)
+	at clojure.tools.reader$read_delimited.invoke(reader.clj:195)
+	at clojure.tools.reader$read_list.invoke(reader.clj:208)
+	at clojure.tools.reader$read_STAR_.invoke(reader.clj:889)
+	at clojure.tools.reader$read_delimited.invoke(reader.clj:195)
+	at clojure.tools.reader$read_list.invoke(reader.clj:208)
+	at clojure.tools.reader$read_STAR_.invoke(reader.clj:889)
+	at clojure.tools.reader$read.invoke(reader.clj:938)
+	at cljs.analyzer$forms_seq_STAR_$forms_seq___3205$fn__3206$fn__3207.invoke(analyzer.cljc:2626)
+	at cljs.analyzer$forms_seq_STAR_$forms_seq___3205$fn__3206.invoke(analyzer.cljc:2619)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:507)
+	at clojure.core$seq__4128.invoke(core.clj:137)
+	at cljs.compiler$compile_file_STAR_$fn__4206.invoke(compiler.cljc:1219)
+	at cljs.compiler$with_core_cljs.invoke(compiler.cljc:1149)
+	at cljs.compiler$compile_file_STAR_.invoke(compiler.cljc:1172)
+	at cljs.compiler$compile_file$fn__4246.invoke(compiler.cljc:1331)
+	... 20 more
+
+Change detected, recompiling ...
+... done. Elapsed 0.134548509 seconds
+Change detected, recompiling ...
+... done. Elapsed 0.088671308 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+clojure.lang.ExceptionInfo: failed compiling file:src/yaml_table/core.cljs {:file #object[java.io.File 0x5b13a16c "src/yaml_table/core.cljs"]}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at cljs.compiler$compile_file$fn__4246.invoke(compiler.cljc:1343)
+	at cljs.compiler$compile_file.invoke(compiler.cljc:1310)
+	at cljs.closure$compile_file.invoke(closure.clj:434)
+	at cljs.closure$eval4703$fn__4704.invoke(closure.clj:491)
+	at cljs.closure$eval4642$fn__4643$G__4631__4650.invoke(closure.clj:391)
+	at cljs.closure$compile_sources$iter__4806__4810$fn__4811.invoke(closure.clj:755)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.Cons.next(Cons.java:39)
+	at clojure.lang.RT.next(RT.java:674)
+	at clojure.core$next__4112.invoke(core.clj:64)
+	at clojure.core$dorun.invoke(core.clj:3010)
+	at clojure.core$doall.invoke(core.clj:3025)
+	at cljs.closure$compile_sources.invoke(closure.clj:751)
+	at cljs.closure$build.invoke(closure.clj:1807)
+	at cljs.closure$watch$buildf__5196.invoke(closure.clj:1889)
+	at cljs.closure$watch.invoke(closure.clj:1938)
+	at cljs.repl$repl_STAR_$fn__5723$fn__5728.invoke(repl.cljc:881)
+	at clojure.core$binding_conveyor_fn$fn__4444.invoke(core.clj:1916)
+	at clojure.lang.AFn.run(AFn.java:22)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: clojure.lang.ExceptionInfo: Unmatched delimiter ) {:type :reader-exception, :line 69, :column 66, :file "/home/george/Dropbox/yaml-table/src/yaml_table/core.cljs"}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at clojure.tools.reader.reader_types$reader_error.doInvoke(reader_types.clj:331)
+	at clojure.lang.RestFn.invoke(RestFn.java:439)
+	at clojure.tools.reader$read_unmatched_delimiter.invoke(reader.clj:76)
+	at clojure.tools.reader$read_STAR_.invoke(reader.clj:889)
+	at clojure.tools.reader$read_delimited.invoke(reader.clj:195)
+	at clojure.tools.reader$read_vector.invoke(reader.clj:226)
+	at clojure.tools.reader$read_STAR_.invoke(reader.clj:889)
+	at clojure.tools.reader$read_delimited.invoke(reader.clj:195)
+	at clojure.tools.reader$read_list.invoke(reader.clj:208)
+	at clojure.tools.reader$read_STAR_.invoke(reader.clj:889)
+	at clojure.tools.reader$read_delimited.invoke(reader.clj:195)
+	at clojure.tools.reader$read_list.invoke(reader.clj:208)
+	at clojure.tools.reader$read_STAR_.invoke(reader.clj:889)
+	at clojure.tools.reader$read.invoke(reader.clj:938)
+	at cljs.analyzer$forms_seq_STAR_$forms_seq___3205$fn__3206$fn__3207.invoke(analyzer.cljc:2626)
+	at cljs.analyzer$forms_seq_STAR_$forms_seq___3205$fn__3206.invoke(analyzer.cljc:2619)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:507)
+	at clojure.core$seq__4128.invoke(core.clj:137)
+	at cljs.compiler$compile_file_STAR_$fn__4206.invoke(compiler.cljc:1219)
+	at cljs.compiler$with_core_cljs.invoke(compiler.cljc:1149)
+	at cljs.compiler$compile_file_STAR_.invoke(compiler.cljc:1172)
+	at cljs.compiler$compile_file$fn__4246.invoke(compiler.cljc:1331)
+	... 20 more
+
+Change detected, recompiling ...
+... done. Elapsed 0.082992194 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+clojure.lang.ExceptionInfo: failed compiling file:src/yaml_table/core.cljs {:file #object[java.io.File 0x329afe19 "src/yaml_table/core.cljs"]}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at cljs.compiler$compile_file$fn__4246.invoke(compiler.cljc:1343)
+	at cljs.compiler$compile_file.invoke(compiler.cljc:1310)
+	at cljs.closure$compile_file.invoke(closure.clj:434)
+	at cljs.closure$eval4703$fn__4704.invoke(closure.clj:491)
+	at cljs.closure$eval4642$fn__4643$G__4631__4650.invoke(closure.clj:391)
+	at cljs.closure$compile_sources$iter__4806__4810$fn__4811.invoke(closure.clj:755)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.Cons.next(Cons.java:39)
+	at clojure.lang.RT.next(RT.java:674)
+	at clojure.core$next__4112.invoke(core.clj:64)
+	at clojure.core$dorun.invoke(core.clj:3010)
+	at clojure.core$doall.invoke(core.clj:3025)
+	at cljs.closure$compile_sources.invoke(closure.clj:751)
+	at cljs.closure$build.invoke(closure.clj:1807)
+	at cljs.closure$watch$buildf__5196.invoke(closure.clj:1889)
+	at cljs.closure$watch.invoke(closure.clj:1938)
+	at cljs.repl$repl_STAR_$fn__5723$fn__5728.invoke(repl.cljc:881)
+	at clojure.core$binding_conveyor_fn$fn__4444.invoke(core.clj:1916)
+	at clojure.lang.AFn.run(AFn.java:22)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: clojure.lang.ExceptionInfo: let requires an even number of forms in binding vector at line 56 src/yaml_table/core.cljs {:file "src/yaml_table/core.cljs", :line 56, :column 3, :tag :cljs/analysis-error}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at cljs.analyzer$error.invoke(analyzer.cljc:568)
+	at cljs.analyzer$macroexpand_1.invoke(analyzer.cljc:2384)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2414)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2583)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2582)
+	at cljs.analyzer$eval2738$fn__2740.invoke(analyzer.cljc:1401)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2583)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2582)
+	at cljs.analyzer$analyze_fn_method_body.invoke(analyzer.cljc:1220)
+	at cljs.analyzer$analyze_fn_method.invoke(analyzer.cljc:1238)
+	at cljs.analyzer$eval2699$fn__2701$fn__2704.invoke(analyzer.cljc:1302)
+	at clojure.core$map$fn__4553.invoke(core.clj:2624)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:507)
+	at clojure.core$seq__4128.invoke(core.clj:137)
+	at clojure.core$map$fn__4553.invoke(core.clj:2616)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:507)
+	at clojure.core$seq__4128.invoke(core.clj:137)
+	at clojure.core$apply.invoke(core.clj:630)
+	at cljs.analyzer$eval2699$fn__2701.invoke(analyzer.cljc:1303)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2417)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2583)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2582)
+	at cljs.analyzer$eval2795$fn__2797.invoke(analyzer.cljc:1599)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2583)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2582)
+	at cljs.analyzer$analyze_do_statements_STAR_$fn__2734.invoke(analyzer.cljc:1392)
+	at clojure.core$map$fn__4553.invoke(core.clj:2622)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:507)
+	at clojure.core$seq__4128.invoke(core.clj:137)
+	at cljs.analyzer$analyze_do_statements_STAR_.invoke(analyzer.cljc:1392)
+	at cljs.analyzer$analyze_do_statements.invoke(analyzer.cljc:1395)
+	at cljs.analyzer$eval2738$fn__2740.invoke(analyzer.cljc:1399)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2583)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2582)
+	at cljs.analyzer$eval2738$fn__2740.invoke(analyzer.cljc:1411)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2417)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.compiler$compile_file_STAR_$fn__4206.invoke(compiler.cljc:1221)
+	at cljs.compiler$with_core_cljs.invoke(compiler.cljc:1149)
+	at cljs.compiler$compile_file_STAR_.invoke(compiler.cljc:1172)
+	at cljs.compiler$compile_file$fn__4246.invoke(compiler.cljc:1331)
+	... 20 more
+Caused by: java.lang.IllegalArgumentException: let requires an even number of forms in binding vector
+	at cljs.core$let.doInvoke(core.cljc:729)
+	at clojure.lang.RestFn.invoke(RestFn.java:445)
+	at clojure.lang.AFn.applyToHelper(AFn.java:160)
+	at clojure.lang.RestFn.applyTo(RestFn.java:132)
+	at clojure.core$apply.invoke(core.clj:634)
+	at cljs.analyzer$macroexpand_1_STAR_.invoke(analyzer.cljc:2344)
+	... 109 more
+
+Change detected, recompiling ...
+... done. Elapsed 0.08177103 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+clojure.lang.ExceptionInfo: failed compiling file:src/yaml_table/core.cljs {:file #object[java.io.File 0x2a2ba235 "src/yaml_table/core.cljs"]}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at cljs.compiler$compile_file$fn__4246.invoke(compiler.cljc:1343)
+	at cljs.compiler$compile_file.invoke(compiler.cljc:1310)
+	at cljs.closure$compile_file.invoke(closure.clj:434)
+	at cljs.closure$eval4703$fn__4704.invoke(closure.clj:491)
+	at cljs.closure$eval4642$fn__4643$G__4631__4650.invoke(closure.clj:391)
+	at cljs.closure$compile_sources$iter__4806__4810$fn__4811.invoke(closure.clj:755)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.Cons.next(Cons.java:39)
+	at clojure.lang.RT.next(RT.java:674)
+	at clojure.core$next__4112.invoke(core.clj:64)
+	at clojure.core$dorun.invoke(core.clj:3010)
+	at clojure.core$doall.invoke(core.clj:3025)
+	at cljs.closure$compile_sources.invoke(closure.clj:751)
+	at cljs.closure$build.invoke(closure.clj:1807)
+	at cljs.closure$watch$buildf__5196.invoke(closure.clj:1889)
+	at cljs.closure$watch.invoke(closure.clj:1938)
+	at cljs.repl$repl_STAR_$fn__5723$fn__5728.invoke(repl.cljc:881)
+	at clojure.core$binding_conveyor_fn$fn__4444.invoke(core.clj:1916)
+	at clojure.lang.AFn.run(AFn.java:22)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: clojure.lang.ExceptionInfo: let requires an even number of forms in binding vector at line 56 src/yaml_table/core.cljs {:file "src/yaml_table/core.cljs", :line 56, :column 3, :tag :cljs/analysis-error}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at cljs.analyzer$error.invoke(analyzer.cljc:568)
+	at cljs.analyzer$macroexpand_1.invoke(analyzer.cljc:2384)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2414)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2583)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2582)
+	at cljs.analyzer$eval2738$fn__2740.invoke(analyzer.cljc:1401)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2583)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2582)
+	at cljs.analyzer$analyze_fn_method_body.invoke(analyzer.cljc:1220)
+	at cljs.analyzer$analyze_fn_method.invoke(analyzer.cljc:1238)
+	at cljs.analyzer$eval2699$fn__2701$fn__2704.invoke(analyzer.cljc:1302)
+	at clojure.core$map$fn__4553.invoke(core.clj:2624)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:507)
+	at clojure.core$seq__4128.invoke(core.clj:137)
+	at clojure.core$map$fn__4553.invoke(core.clj:2616)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:507)
+	at clojure.core$seq__4128.invoke(core.clj:137)
+	at clojure.core$apply.invoke(core.clj:630)
+	at cljs.analyzer$eval2699$fn__2701.invoke(analyzer.cljc:1303)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2417)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2583)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2582)
+	at cljs.analyzer$eval2795$fn__2797.invoke(analyzer.cljc:1599)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2583)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2582)
+	at cljs.analyzer$analyze_do_statements_STAR_$fn__2734.invoke(analyzer.cljc:1392)
+	at clojure.core$map$fn__4553.invoke(core.clj:2622)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:507)
+	at clojure.core$seq__4128.invoke(core.clj:137)
+	at cljs.analyzer$analyze_do_statements_STAR_.invoke(analyzer.cljc:1392)
+	at cljs.analyzer$analyze_do_statements.invoke(analyzer.cljc:1395)
+	at cljs.analyzer$eval2738$fn__2740.invoke(analyzer.cljc:1399)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2583)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2582)
+	at cljs.analyzer$eval2738$fn__2740.invoke(analyzer.cljc:1411)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2417)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.compiler$compile_file_STAR_$fn__4206.invoke(compiler.cljc:1221)
+	at cljs.compiler$with_core_cljs.invoke(compiler.cljc:1149)
+	at cljs.compiler$compile_file_STAR_.invoke(compiler.cljc:1172)
+	at cljs.compiler$compile_file$fn__4246.invoke(compiler.cljc:1331)
+	... 20 more
+Caused by: java.lang.IllegalArgumentException: let requires an even number of forms in binding vector
+	at cljs.core$let.doInvoke(core.cljc:729)
+	at clojure.lang.RestFn.invoke(RestFn.java:445)
+	at clojure.lang.AFn.applyToHelper(AFn.java:160)
+	at clojure.lang.RestFn.applyTo(RestFn.java:132)
+	at clojure.core$apply.invoke(core.clj:634)
+	at cljs.analyzer$macroexpand_1_STAR_.invoke(analyzer.cljc:2344)
+	... 109 more
+
+Change detected, recompiling ...
+... done. Elapsed 0.080846331 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+clojure.lang.ExceptionInfo: failed compiling file:src/yaml_table/core.cljs {:file #object[java.io.File 0x3a1ed32 "src/yaml_table/core.cljs"]}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at cljs.compiler$compile_file$fn__4246.invoke(compiler.cljc:1343)
+	at cljs.compiler$compile_file.invoke(compiler.cljc:1310)
+	at cljs.closure$compile_file.invoke(closure.clj:434)
+	at cljs.closure$eval4703$fn__4704.invoke(closure.clj:491)
+	at cljs.closure$eval4642$fn__4643$G__4631__4650.invoke(closure.clj:391)
+	at cljs.closure$compile_sources$iter__4806__4810$fn__4811.invoke(closure.clj:755)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.Cons.next(Cons.java:39)
+	at clojure.lang.RT.next(RT.java:674)
+	at clojure.core$next__4112.invoke(core.clj:64)
+	at clojure.core$dorun.invoke(core.clj:3010)
+	at clojure.core$doall.invoke(core.clj:3025)
+	at cljs.closure$compile_sources.invoke(closure.clj:751)
+	at cljs.closure$build.invoke(closure.clj:1807)
+	at cljs.closure$watch$buildf__5196.invoke(closure.clj:1889)
+	at cljs.closure$watch.invoke(closure.clj:1938)
+	at cljs.repl$repl_STAR_$fn__5723$fn__5728.invoke(repl.cljc:881)
+	at clojure.core$binding_conveyor_fn$fn__4444.invoke(core.clj:1916)
+	at clojure.lang.AFn.run(AFn.java:22)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: clojure.lang.ExceptionInfo: let requires an even number of forms in binding vector at line 56 src/yaml_table/core.cljs {:file "src/yaml_table/core.cljs", :line 56, :column 3, :tag :cljs/analysis-error}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at cljs.analyzer$error.invoke(analyzer.cljc:568)
+	at cljs.analyzer$macroexpand_1.invoke(analyzer.cljc:2384)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2414)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2583)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2582)
+	at cljs.analyzer$eval2738$fn__2740.invoke(analyzer.cljc:1401)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2583)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2582)
+	at cljs.analyzer$analyze_fn_method_body.invoke(analyzer.cljc:1220)
+	at cljs.analyzer$analyze_fn_method.invoke(analyzer.cljc:1238)
+	at cljs.analyzer$eval2699$fn__2701$fn__2704.invoke(analyzer.cljc:1302)
+	at clojure.core$map$fn__4553.invoke(core.clj:2624)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:507)
+	at clojure.core$seq__4128.invoke(core.clj:137)
+	at clojure.core$map$fn__4553.invoke(core.clj:2616)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:507)
+	at clojure.core$seq__4128.invoke(core.clj:137)
+	at clojure.core$apply.invoke(core.clj:630)
+	at cljs.analyzer$eval2699$fn__2701.invoke(analyzer.cljc:1303)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2417)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2583)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2582)
+	at cljs.analyzer$eval2795$fn__2797.invoke(analyzer.cljc:1599)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2583)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2582)
+	at cljs.analyzer$analyze_do_statements_STAR_$fn__2734.invoke(analyzer.cljc:1392)
+	at clojure.core$map$fn__4553.invoke(core.clj:2622)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:507)
+	at clojure.core$seq__4128.invoke(core.clj:137)
+	at cljs.analyzer$analyze_do_statements_STAR_.invoke(analyzer.cljc:1392)
+	at cljs.analyzer$analyze_do_statements.invoke(analyzer.cljc:1395)
+	at cljs.analyzer$eval2738$fn__2740.invoke(analyzer.cljc:1399)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2583)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2582)
+	at cljs.analyzer$eval2738$fn__2740.invoke(analyzer.cljc:1411)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2417)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.compiler$compile_file_STAR_$fn__4206.invoke(compiler.cljc:1221)
+	at cljs.compiler$with_core_cljs.invoke(compiler.cljc:1149)
+	at cljs.compiler$compile_file_STAR_.invoke(compiler.cljc:1172)
+	at cljs.compiler$compile_file$fn__4246.invoke(compiler.cljc:1331)
+	... 20 more
+Caused by: java.lang.IllegalArgumentException: let requires an even number of forms in binding vector
+	at cljs.core$let.doInvoke(core.cljc:729)
+	at clojure.lang.RestFn.invoke(RestFn.java:445)
+	at clojure.lang.AFn.applyToHelper(AFn.java:160)
+	at clojure.lang.RestFn.applyTo(RestFn.java:132)
+	at clojure.core$apply.invoke(core.clj:634)
+	at cljs.analyzer$macroexpand_1_STAR_.invoke(analyzer.cljc:2344)
+	... 109 more
+
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+clojure.lang.ExceptionInfo: failed compiling file:src/yaml_table/core.cljs {:file #object[java.io.File 0x7a28dfae "src/yaml_table/core.cljs"]}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at cljs.compiler$compile_file$fn__4246.invoke(compiler.cljc:1343)
+	at cljs.compiler$compile_file.invoke(compiler.cljc:1310)
+	at cljs.closure$compile_file.invoke(closure.clj:434)
+	at cljs.closure$eval4703$fn__4704.invoke(closure.clj:491)
+	at cljs.closure$eval4642$fn__4643$G__4631__4650.invoke(closure.clj:391)
+	at cljs.closure$compile_sources$iter__4806__4810$fn__4811.invoke(closure.clj:755)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.Cons.next(Cons.java:39)
+	at clojure.lang.RT.next(RT.java:674)
+	at clojure.core$next__4112.invoke(core.clj:64)
+	at clojure.core$dorun.invoke(core.clj:3010)
+	at clojure.core$doall.invoke(core.clj:3025)
+	at cljs.closure$compile_sources.invoke(closure.clj:751)
+	at cljs.closure$build.invoke(closure.clj:1807)
+	at cljs.closure$watch$buildf__5196.invoke(closure.clj:1889)
+	at cljs.closure$watch.invoke(closure.clj:1938)
+	at cljs.repl$repl_STAR_$fn__5723$fn__5728.invoke(repl.cljc:881)
+	at clojure.core$binding_conveyor_fn$fn__4444.invoke(core.clj:1916)
+	at clojure.lang.AFn.run(AFn.java:22)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: clojure.lang.ExceptionInfo: let requires an even number of forms in binding vector at line 56 src/yaml_table/core.cljs {:file "src/yaml_table/core.cljs", :line 56, :column 3, :tag :cljs/analysis-error}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at cljs.analyzer$error.invoke(analyzer.cljc:568)
+	at cljs.analyzer$macroexpand_1.invoke(analyzer.cljc:2384)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2414)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2583)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2582)
+	at cljs.analyzer$eval2738$fn__2740.invoke(analyzer.cljc:1401)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2583)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2582)
+	at cljs.analyzer$analyze_fn_method_body.invoke(analyzer.cljc:1220)
+	at cljs.analyzer$analyze_fn_method.invoke(analyzer.cljc:1238)
+	at cljs.analyzer$eval2699$fn__2701$fn__2704.invoke(analyzer.cljc:1302)
+	at clojure.core$map$fn__4553.invoke(core.clj:2624)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:507)
+	at clojure.core$seq__4128.invoke(core.clj:137)
+	at clojure.core$map$fn__4553.invoke(core.clj:2616)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:507)
+	at clojure.core$seq__4128.invoke(core.clj:137)
+	at clojure.core$apply.invoke(core.clj:630)
+	at cljs.analyzer$eval2699$fn__2701.invoke(analyzer.cljc:1303)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2417)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2583)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2582)
+	at cljs.analyzer$eval2795$fn__2797.invoke(analyzer.cljc:1599)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2583)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2582)
+	at cljs.analyzer$analyze_do_statements_STAR_$fn__2734.invoke(analyzer.cljc:1392)
+	at clojure.core$map$fn__4553.invoke(core.clj:2622)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:507)
+	at clojure.core$seq__4128.invoke(core.clj:137)
+	at cljs.analyzer$analyze_do_statements_STAR_.invoke(analyzer.cljc:1392)
+	at cljs.analyzer$analyze_do_statements.invoke(analyzer.cljc:1395)
+	at cljs.analyzer$eval2738$fn__2740.invoke(analyzer.cljc:1399)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2583)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2582)
+	at cljs.analyzer$eval2738$fn__2740.invoke(analyzer.cljc:1411)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2417)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.compiler$compile_file_STAR_$fn__4206.invoke(compiler.cljc:1221)
+	at cljs.compiler$with_core_cljs.invoke(compiler.cljc:1149)
+	at cljs.compiler$compile_file_STAR_.invoke(compiler.cljc:1172)
+	at cljs.compiler$compile_file$fn__4246.invoke(compiler.cljc:1331)
+	... 20 more
+Caused by: java.lang.IllegalArgumentException: let requires an even number of forms in binding vector
+	at cljs.core$let.doInvoke(core.cljc:729)
+	at clojure.lang.RestFn.invoke(RestFn.java:445)
+	at clojure.lang.AFn.applyToHelper(AFn.java:160)
+	at clojure.lang.RestFn.applyTo(RestFn.java:132)
+	at clojure.core$apply.invoke(core.clj:634)
+	at cljs.analyzer$macroexpand_1_STAR_.invoke(analyzer.cljc:2344)
+	... 109 more
+
+Change detected, recompiling ...
+... done. Elapsed 0.101464431 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+clojure.lang.ExceptionInfo: failed compiling file:src/yaml_table/core.cljs {:file #object[java.io.File 0x663e28d7 "src/yaml_table/core.cljs"]}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at cljs.compiler$compile_file$fn__4246.invoke(compiler.cljc:1343)
+	at cljs.compiler$compile_file.invoke(compiler.cljc:1310)
+	at cljs.closure$compile_file.invoke(closure.clj:434)
+	at cljs.closure$eval4703$fn__4704.invoke(closure.clj:491)
+	at cljs.closure$eval4642$fn__4643$G__4631__4650.invoke(closure.clj:391)
+	at cljs.closure$compile_sources$iter__4806__4810$fn__4811.invoke(closure.clj:755)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.Cons.next(Cons.java:39)
+	at clojure.lang.RT.next(RT.java:674)
+	at clojure.core$next__4112.invoke(core.clj:64)
+	at clojure.core$dorun.invoke(core.clj:3010)
+	at clojure.core$doall.invoke(core.clj:3025)
+	at cljs.closure$compile_sources.invoke(closure.clj:751)
+	at cljs.closure$build.invoke(closure.clj:1807)
+	at cljs.closure$watch$buildf__5196.invoke(closure.clj:1889)
+	at cljs.closure$watch.invoke(closure.clj:1938)
+	at cljs.repl$repl_STAR_$fn__5723$fn__5728.invoke(repl.cljc:881)
+	at clojure.core$binding_conveyor_fn$fn__4444.invoke(core.clj:1916)
+	at clojure.lang.AFn.run(AFn.java:22)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: clojure.lang.ExceptionInfo: let requires an even number of forms in binding vector at line 56 src/yaml_table/core.cljs {:file "src/yaml_table/core.cljs", :line 56, :column 3, :tag :cljs/analysis-error}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at cljs.analyzer$error.invoke(analyzer.cljc:568)
+	at cljs.analyzer$macroexpand_1.invoke(analyzer.cljc:2384)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2414)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2583)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2582)
+	at cljs.analyzer$eval2738$fn__2740.invoke(analyzer.cljc:1401)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2583)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2582)
+	at cljs.analyzer$analyze_fn_method_body.invoke(analyzer.cljc:1220)
+	at cljs.analyzer$analyze_fn_method.invoke(analyzer.cljc:1238)
+	at cljs.analyzer$eval2699$fn__2701$fn__2704.invoke(analyzer.cljc:1302)
+	at clojure.core$map$fn__4553.invoke(core.clj:2624)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:507)
+	at clojure.core$seq__4128.invoke(core.clj:137)
+	at clojure.core$map$fn__4553.invoke(core.clj:2616)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:507)
+	at clojure.core$seq__4128.invoke(core.clj:137)
+	at clojure.core$apply.invoke(core.clj:630)
+	at cljs.analyzer$eval2699$fn__2701.invoke(analyzer.cljc:1303)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2417)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2583)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2582)
+	at cljs.analyzer$eval2795$fn__2797.invoke(analyzer.cljc:1599)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2583)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2582)
+	at cljs.analyzer$analyze_do_statements_STAR_$fn__2734.invoke(analyzer.cljc:1392)
+	at clojure.core$map$fn__4553.invoke(core.clj:2622)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:507)
+	at clojure.core$seq__4128.invoke(core.clj:137)
+	at cljs.analyzer$analyze_do_statements_STAR_.invoke(analyzer.cljc:1392)
+	at cljs.analyzer$analyze_do_statements.invoke(analyzer.cljc:1395)
+	at cljs.analyzer$eval2738$fn__2740.invoke(analyzer.cljc:1399)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2583)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2582)
+	at cljs.analyzer$eval2738$fn__2740.invoke(analyzer.cljc:1411)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2417)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.compiler$compile_file_STAR_$fn__4206.invoke(compiler.cljc:1221)
+	at cljs.compiler$with_core_cljs.invoke(compiler.cljc:1149)
+	at cljs.compiler$compile_file_STAR_.invoke(compiler.cljc:1172)
+	at cljs.compiler$compile_file$fn__4246.invoke(compiler.cljc:1331)
+	... 20 more
+Caused by: java.lang.IllegalArgumentException: let requires an even number of forms in binding vector
+	at cljs.core$let.doInvoke(core.cljc:729)
+	at clojure.lang.RestFn.invoke(RestFn.java:445)
+	at clojure.lang.AFn.applyToHelper(AFn.java:160)
+	at clojure.lang.RestFn.applyTo(RestFn.java:132)
+	at clojure.core$apply.invoke(core.clj:634)
+	at cljs.analyzer$macroexpand_1_STAR_.invoke(analyzer.cljc:2344)
+	... 109 more
+
+Change detected, recompiling ...
+... done. Elapsed 0.080710705 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+clojure.lang.ExceptionInfo: failed compiling file:src/yaml_table/core.cljs {:file #object[java.io.File 0x44ee5174 "src/yaml_table/core.cljs"]}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at cljs.compiler$compile_file$fn__4246.invoke(compiler.cljc:1343)
+	at cljs.compiler$compile_file.invoke(compiler.cljc:1310)
+	at cljs.closure$compile_file.invoke(closure.clj:434)
+	at cljs.closure$eval4703$fn__4704.invoke(closure.clj:491)
+	at cljs.closure$eval4642$fn__4643$G__4631__4650.invoke(closure.clj:391)
+	at cljs.closure$compile_sources$iter__4806__4810$fn__4811.invoke(closure.clj:755)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.Cons.next(Cons.java:39)
+	at clojure.lang.RT.next(RT.java:674)
+	at clojure.core$next__4112.invoke(core.clj:64)
+	at clojure.core$dorun.invoke(core.clj:3010)
+	at clojure.core$doall.invoke(core.clj:3025)
+	at cljs.closure$compile_sources.invoke(closure.clj:751)
+	at cljs.closure$build.invoke(closure.clj:1807)
+	at cljs.closure$watch$buildf__5196.invoke(closure.clj:1889)
+	at cljs.closure$watch.invoke(closure.clj:1938)
+	at cljs.repl$repl_STAR_$fn__5723$fn__5728.invoke(repl.cljc:881)
+	at clojure.core$binding_conveyor_fn$fn__4444.invoke(core.clj:1916)
+	at clojure.lang.AFn.run(AFn.java:22)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: clojure.lang.ExceptionInfo: let requires an even number of forms in binding vector at line 56 src/yaml_table/core.cljs {:file "src/yaml_table/core.cljs", :line 56, :column 3, :tag :cljs/analysis-error}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at cljs.analyzer$error.invoke(analyzer.cljc:568)
+	at cljs.analyzer$macroexpand_1.invoke(analyzer.cljc:2384)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2414)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2583)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2582)
+	at cljs.analyzer$eval2738$fn__2740.invoke(analyzer.cljc:1401)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2583)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2582)
+	at cljs.analyzer$analyze_fn_method_body.invoke(analyzer.cljc:1220)
+	at cljs.analyzer$analyze_fn_method.invoke(analyzer.cljc:1238)
+	at cljs.analyzer$eval2699$fn__2701$fn__2704.invoke(analyzer.cljc:1302)
+	at clojure.core$map$fn__4553.invoke(core.clj:2624)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:507)
+	at clojure.core$seq__4128.invoke(core.clj:137)
+	at clojure.core$map$fn__4553.invoke(core.clj:2616)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:507)
+	at clojure.core$seq__4128.invoke(core.clj:137)
+	at clojure.core$apply.invoke(core.clj:630)
+	at cljs.analyzer$eval2699$fn__2701.invoke(analyzer.cljc:1303)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2417)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2583)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2582)
+	at cljs.analyzer$eval2795$fn__2797.invoke(analyzer.cljc:1599)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2583)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2582)
+	at cljs.analyzer$analyze_do_statements_STAR_$fn__2734.invoke(analyzer.cljc:1392)
+	at clojure.core$map$fn__4553.invoke(core.clj:2622)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:507)
+	at clojure.core$seq__4128.invoke(core.clj:137)
+	at cljs.analyzer$analyze_do_statements_STAR_.invoke(analyzer.cljc:1392)
+	at cljs.analyzer$analyze_do_statements.invoke(analyzer.cljc:1395)
+	at cljs.analyzer$eval2738$fn__2740.invoke(analyzer.cljc:1399)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2583)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2582)
+	at cljs.analyzer$eval2738$fn__2740.invoke(analyzer.cljc:1411)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2417)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.compiler$compile_file_STAR_$fn__4206.invoke(compiler.cljc:1221)
+	at cljs.compiler$with_core_cljs.invoke(compiler.cljc:1149)
+	at cljs.compiler$compile_file_STAR_.invoke(compiler.cljc:1172)
+	at cljs.compiler$compile_file$fn__4246.invoke(compiler.cljc:1331)
+	... 20 more
+Caused by: java.lang.IllegalArgumentException: let requires an even number of forms in binding vector
+	at cljs.core$let.doInvoke(core.cljc:729)
+	at clojure.lang.RestFn.invoke(RestFn.java:445)
+	at clojure.lang.AFn.applyToHelper(AFn.java:160)
+	at clojure.lang.RestFn.applyTo(RestFn.java:132)
+	at clojure.core$apply.invoke(core.clj:634)
+	at cljs.analyzer$macroexpand_1_STAR_.invoke(analyzer.cljc:2344)
+	... 109 more
+
+Change detected, recompiling ...
+... done. Elapsed 0.081055449 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.33342972 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.414634013 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.375517707 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.509833692 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.330350009 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.370236287 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+WARNING: Use of undeclared Var yaml-table.core/Array at line 65 src/yaml_table/core.cljs
+WARNING: Use of undeclared Var yaml-table.core/Array at line 65 src/yaml_table/core.cljs
+... done. Elapsed 0.30094358 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+WARNING: Use of undeclared Var yaml-table.core/Array at line 65 src/yaml_table/core.cljs
+WARNING: Use of undeclared Var yaml-table.core/Array at line 65 src/yaml_table/core.cljs
+... done. Elapsed 0.473850381 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.30643106 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.409147975 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.368807679 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.454766414 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.398674345 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.539944382 seconds
+Change detected, recompiling ...
+Compiling out/cljs/core/async/impl/protocols.cljs
+Compiling out/cljs/core/async/impl/buffers.cljs
+Compiling out/cljs/core/async/impl/dispatch.cljs
+Compiling out/cljs/core/async/impl/channels.cljs
+Compiling out/cljs/core/async/impl/ioc_helpers.cljs
+Compiling out/cljs/core/async/impl/timers.cljs
+Compiling out/cljs/core/async.cljs
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 4.187501405 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.45288525 seconds
+Change detected, recompiling ...
+Compiling out/cljs/core/async/impl/protocols.cljs
+Compiling out/cljs/core/async/impl/buffers.cljs
+Compiling out/cljs/core/async/impl/dispatch.cljs
+Compiling out/cljs/core/async/impl/channels.cljs
+Compiling out/cljs/core/async/impl/ioc_helpers.cljs
+Compiling out/cljs/core/async/impl/timers.cljs
+Compiling out/cljs/core/async.cljs
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 4.201111634 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.455575395 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.34064852 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.452062981 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.36357176 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.416411591 seconds
+Change detected, recompiling ...
+Compiling out/cljs/core/async/impl/protocols.cljs
+Compiling out/cljs/core/async/impl/buffers.cljs
+Compiling out/cljs/core/async/impl/dispatch.cljs
+Compiling out/cljs/core/async/impl/channels.cljs
+Compiling out/cljs/core/async/impl/ioc_helpers.cljs
+Compiling out/cljs/core/async/impl/timers.cljs
+Compiling out/cljs/core/async.cljs
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 4.230934269 seconds
+Change detected, recompiling ...
+... done. Elapsed 0.094097374 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.370655301 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.393908228 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.292943844 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.399058664 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.28008177 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.387724374 seconds
+Change detected, recompiling ...
+... done. Elapsed 0.141665284 seconds
+Change detected, recompiling ...
+Compiling out/cljs/core/async/impl/protocols.cljs
+Compiling out/cljs/core/async/impl/buffers.cljs
+Compiling out/cljs/core/async/impl/dispatch.cljs
+Compiling out/cljs/core/async/impl/channels.cljs
+Compiling out/cljs/core/async/impl/ioc_helpers.cljs
+Compiling out/cljs/core/async/impl/timers.cljs
+Compiling out/cljs/core/async.cljs
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 5.058278249 seconds
+Change detected, recompiling ...
+... done. Elapsed 0.148350193 seconds
+Change detected, recompiling ...
+Compiling out/cljs/core/async/impl/protocols.cljs
+Compiling out/cljs/core/async/impl/buffers.cljs
+Compiling out/cljs/core/async/impl/dispatch.cljs
+Compiling out/cljs/core/async/impl/channels.cljs
+Compiling out/cljs/core/async/impl/ioc_helpers.cljs
+Compiling out/cljs/core/async/impl/timers.cljs
+Compiling out/cljs/core/async.cljs
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 3.785659544 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.499232977 seconds
+Change detected, recompiling ...
+Compiling out/cljs/core/async/impl/protocols.cljs
+Compiling out/cljs/core/async/impl/buffers.cljs
+Compiling out/cljs/core/async/impl/dispatch.cljs
+Compiling out/cljs/core/async/impl/channels.cljs
+Compiling out/cljs/core/async/impl/ioc_helpers.cljs
+Compiling out/cljs/core/async/impl/timers.cljs
+Compiling out/cljs/core/async.cljs
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 4.175472327 seconds
+Change detected, recompiling ...
+... done. Elapsed 0.102231366 seconds
+Change detected, recompiling ...
+Compiling out/cljs/core/async/impl/protocols.cljs
+Compiling out/cljs/core/async/impl/buffers.cljs
+Compiling out/cljs/core/async/impl/dispatch.cljs
+Compiling out/cljs/core/async/impl/channels.cljs
+Compiling out/cljs/core/async/impl/ioc_helpers.cljs
+Compiling out/cljs/core/async/impl/timers.cljs
+Compiling out/cljs/core/async.cljs
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 4.462778213 seconds
+Change detected, recompiling ...
+... done. Elapsed 0.091855642 seconds
+Change detected, recompiling ...
+Compiling out/cljs/core/async/impl/protocols.cljs
+Compiling out/cljs/core/async/impl/buffers.cljs
+Compiling out/cljs/core/async/impl/dispatch.cljs
+Compiling out/cljs/core/async/impl/channels.cljs
+Compiling out/cljs/core/async/impl/ioc_helpers.cljs
+Compiling out/cljs/core/async/impl/timers.cljs
+Compiling out/cljs/core/async.cljs
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 4.137537715 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.55925356 seconds
