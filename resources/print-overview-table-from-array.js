@@ -61,11 +61,33 @@ printExtTableFromArray = function(ext, options, arr) {
 
 	//get .yaml-table sort field
 
-	//QWERTY: make these functions to jam shit down a channel
+	//QWERTY: make these pure js functions to jam shit down a channel
+	sortArrayBySortField = function(sortField, arr)
 	//sort arr --> make this seperate function
+	stripNullFromRows(arr) = function(arr) {}
 	//strip arr from nulls --> make this seperate function
 
 	console.log(asciitable(options, arr));
 }
+
+/*
+test data:
+	arr = [{sf: "capple"}, {sf: "banana"}, {sf: "fuck"}, {nothing: "hi"}];
+	sortArrayBySortField("sf", arr);
+*/
+sortArrayBySortField = function(sortField, arr) {
+
+	function compare(a,b) {
+	  if (a[sortField] < b[sortField])
+	    return -1;
+	  else if (a[sortField] > b[sortField])
+	    return 1;
+	  else 
+	    return 0;
+	}
+
+	return arr.sort(compare);
+}
+
 
 module.exports.printOverviewTableFromArray = printOverviewTableFromArray;
