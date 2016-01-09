@@ -71,9 +71,9 @@ printExtTableFromArray = function(ext, options, arr) {
 }
 
 /*
-test data:
-	arr = [{sf: "capple"}, {sf: "banana"}, {sf: "fuck"}, {nothing: "hi"}];
-	sortArrayBySortField("sf", arr);
+ * test data:
+ *	arr = [{sf: "capple"}, {sf: "banana"}, {sf: "fuck"}, {nothing: "hi"}];
+ * sortArrayBySortField("sf", arr);
 */
 sortArrayBySortField = function(sortField, arr) {
 
@@ -89,5 +89,47 @@ sortArrayBySortField = function(sortField, arr) {
 	return arr.sort(compare);
 }
 
-
 module.exports.printOverviewTableFromArray = printOverviewTableFromArray;
+
+stripNullFromRows(arr) = function(arr) {
+	for (k=0; k < arr.length; k++) {
+		arr[k]["date"] = (arr[k]["date"] == null) ? "" : arr[k]["date"];
+		arr[k]["decision"] = (arr[k]["decision"] == null) ? "" : arr[k]["decision"];
+		arr[k]["hypothesis"] = (arr[k]["hypothesis"] == null) ? "" : arr[k]["hypothesis"];
+		arr[k]["exposure"] = (arr[k]["exposure"] == null) ? "" : arr[k]["exposure"];
+		arr[k]["probability"] = (arr[k]["probability"] == null) ? "" : arr[k]["probability"];
+		arr[k]["outcome"] = (arr[k]["outcome"] == null) ? "" : arr[k]["outcome"];
+		arr[k]["brier_score"] = (arr[k]["brier_score"] == null) ? "" : arr[k]["brier_score"];
+		arr[k]["expiration"] = (arr[k]["expiration"] == null) ? "" : arr[k]["expiration"];
+	}
+}
+
+
+/*
+ * tests:
+ * obj = {clojure: "non-empty", javascript: null};
+ * removeNulls(obj);
+*/
+function removeNulls(obj) {
+  var obj1 = obj;
+  for (var k in obj1) {
+    if (obj1[k]===null) {
+      obj1[k]="";
+    }
+  }
+  return obj1;
+}
+
+/*
+ * tests:
+ * arr = [obj, obj];
+ * removeNullsFromArray(arr);
+ *
+*/
+function removeNullsFromArray(arr) {
+  var arr1 = arr;
+  for (var k in arr1) {
+    arr1[k] = removeNulls(obj);
+  }
+  return arr1;
+}
