@@ -52,16 +52,23 @@
     ) 
     c ))
 
-(defn -main [& heh]
+(defn -main [& args]
   (let [
 	minimist (node/require "minimist")
+        argv     (minimist (clj->js (vec args)))
+	ext      (.-e argv)
+	path     (aget (aget argv "_") 0) ;todo: handle >1 paths
+        rows     (.-r argv)
 	;path (str (first heh))
         ;days (js/parseInt (second heh))
         ;cv (-> path path->chan-vec-dec-strings)
         ;mf (comp string->yaml-object-chan file-path->string-with-contents)]
        ]
 
-       (.dir js/console (minimist (clj->js (vec heh))))
+	(println "argv: " argv)
+	(println "ext: " ext)
+	(println "path: " path)
+	(println "rows: " rows)
        ;(.log js/console (clj->js heh))
        ; 
        ;(.dir js/console (minimist (clj->js heh)))
