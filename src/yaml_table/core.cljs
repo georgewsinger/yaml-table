@@ -45,10 +45,10 @@
     [res (node/require "../resources/print-overview-table-from-array.js")]
     (go (.printOverviewTableFromArray res (<! oc) arg2))))
 
-(defn path->chan-vec-dec-strings [input-path]
+(defn path->chan-vec-ext-strings [path ext]
   (let [c (chan 1) dir (node/require "node-dir")]
-    (.files dir input-path (fn [err files] 
-                               (go (>! c (js->clj (.filter files (fn [file] (.endsWith file ".dec")))))))
+    (.files dir path (fn [err files] 
+                               (go (>! c (js->clj (.filter files (fn [file] (.endsWith file ext)))))))
     ) 
     c ))
 

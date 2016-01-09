@@ -2358,3 +2358,18 @@ Compiling src/yaml_table/core.cljs
 ... done. Elapsed 0.489733962 seconds
 Change detected, recompiling ...
 ... done. Elapsed 0.089969733 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.370306842 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.462291953 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.382343901 seconds
+Change detected, recompiling ...
+... done. Elapsed 0.081075999 seconds
