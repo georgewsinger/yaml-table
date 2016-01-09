@@ -56,9 +56,9 @@
   (let [
 	minimist (node/require "minimist")
         argv     (minimist (clj->js (vec args)))
-	ext      (.-e argv)
-	path     (aget (aget argv "_") 0) ;todo: handle >1 paths
-        rows     (.-r argv)
+	ext      (or (.-e argv) "yaml")
+	path     (or (aget (aget argv "_") 0) "/home/george/Dropbox") ;□ >1 paths; default path
+        rows     (or (.-r argv) 10)
 	;path (str (first heh))
         ;days (js/parseInt (second heh))
         ;cv (-> path path->chan-vec-dec-strings)
