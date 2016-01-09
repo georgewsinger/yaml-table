@@ -12,7 +12,8 @@
 
   :npm {:dependencies [[js-yaml "3.4.6"]
                        [asciitable "0.0.7"]
-                       [node-dir "0.1.11"]]}
+                       [node-dir "0.1.11"]
+                       [minimist "1.2.0"]]}
 
   :plugins [[org.bodil/lein-noderepl "0.1.11"]
             [lein-cljsbuild          "1.1.2"]

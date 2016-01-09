@@ -26,8 +26,7 @@
            (go 
             (if (= (.-file_extension returned-yaml-object) ext)
               (do 
-(println "chiptune")
-(>! c returned-yaml-object)
+		  (>! c returned-yaml-object)
                   (close! c))))))) 
    c))
 
