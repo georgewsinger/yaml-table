@@ -2218,3 +2218,143 @@ Compiling out/cljs/nodejs.cljs
 Compiling src/yaml_table/config.cljs
 Compiling src/yaml_table/core.cljs
 ... done. Elapsed 0.403722469 seconds
+Change detected, recompiling ...
+Compiling out/cljs/core/async/impl/protocols.cljs
+Compiling out/cljs/core/async/impl/buffers.cljs
+Compiling out/cljs/core/async/impl/dispatch.cljs
+Compiling out/cljs/core/async/impl/channels.cljs
+Compiling out/cljs/core/async/impl/ioc_helpers.cljs
+Compiling out/cljs/core/async/impl/timers.cljs
+Compiling out/cljs/core/async.cljs
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 4.050737662 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.522901971 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/config.cljs
+... done. Elapsed 0.233939836 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.413678043 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.310368159 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.450975351 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/config.cljs
+WARNING: Use of undeclared Var config.core/chan-matching-yaml-object->chan-array-columns at line 36 src/yaml_table/config.cljs
+... done. Elapsed 0.185734919 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+WARNING: Use of undeclared Var config.core/chan-matching-yaml-object->chan-array-columns at line 36 src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.372303841 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/config.cljs
+WARNING: Use of undeclared Var config.core/chan-matching-yaml-object->chan-array-columns at line 36 src/yaml_table/config.cljs
+... done. Elapsed 0.189657168 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+WARNING: Use of undeclared Var config.core/chan-matching-yaml-object->chan-array-columns at line 36 src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.399852944 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/config.cljs
+WARNING: Use of undeclared Var config.core/chan-matching-yaml-object->chan-array-columns at line 36 src/yaml_table/config.cljs
+... done. Elapsed 0.207865903 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+WARNING: Use of undeclared Var config.core/chan-matching-yaml-object->chan-array-columns at line 36 src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.358997986 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+WARNING: Use of undeclared Var config.core/chan-matching-yaml-object->chan-array-columns at line 36 src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.399737127 seconds
+Change detected, recompiling ...
+... done. Elapsed 0.08238031 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/config.cljs
+WARNING: Use of undeclared Var config.core/chan-matching-yaml-object->chan-array-columns at line 36 src/yaml_table/config.cljs
+... done. Elapsed 0.197332633 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+WARNING: Use of undeclared Var config.core/chan-matching-yaml-object->chan-array-columns at line 36 src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.381499593 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/config.cljs
+WARNING: Use of undeclared Var config.core/chan-matching-yaml-object->chan-array-columns at line 36 src/yaml_table/config.cljs
+... done. Elapsed 0.176860142 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+WARNING: Use of undeclared Var config.core/chan-matching-yaml-object->chan-array-columns at line 36 src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.375252856 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/config.cljs
+... done. Elapsed 0.178074978 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.360802852 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.447872076 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.399507612 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/config.cljs
+... done. Elapsed 0.177784902 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.406403138 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/config.cljs
+... done. Elapsed 0.18670317 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.440451624 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/config.cljs
+... done. Elapsed 0.167031793 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.395905843 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.489733962 seconds
+Change detected, recompiling ...
+... done. Elapsed 0.089969733 seconds
