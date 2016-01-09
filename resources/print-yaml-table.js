@@ -60,4 +60,4 @@ printYamlTable = function(yamlConfig, arr, argDays) {
 	console.log(asciitable(options, rows));
 }
 
-module.exports.printExtTableFromArray = printYamlTable;
+module.exports.printYamlTable = printYamlTable;

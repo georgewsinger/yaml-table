@@ -2436,3 +2436,132 @@ Compiling out/cljs/nodejs.cljs
 Compiling src/yaml_table/config.cljs
 Compiling src/yaml_table/core.cljs
 ... done. Elapsed 0.361875692 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.335335456 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.382157254 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+clojure.lang.ExceptionInfo: failed compiling file:src/yaml_table/core.cljs {:file #object[java.io.File 0x469289d2 "src/yaml_table/core.cljs"]}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at cljs.compiler$compile_file$fn__4246.invoke(compiler.cljc:1343)
+	at cljs.compiler$compile_file.invoke(compiler.cljc:1310)
+	at cljs.closure$compile_file.invoke(closure.clj:434)
+	at cljs.closure$eval4703$fn__4704.invoke(closure.clj:491)
+	at cljs.closure$eval4642$fn__4643$G__4631__4650.invoke(closure.clj:391)
+	at cljs.closure$compile_sources$iter__4806__4810$fn__4811.invoke(closure.clj:755)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.Cons.next(Cons.java:39)
+	at clojure.lang.RT.next(RT.java:674)
+	at clojure.core$next__4112.invoke(core.clj:64)
+	at clojure.core$dorun.invoke(core.clj:3010)
+	at clojure.core$doall.invoke(core.clj:3025)
+	at cljs.closure$compile_sources.invoke(closure.clj:751)
+	at cljs.closure$build.invoke(closure.clj:1807)
+	at cljs.closure$watch$buildf__5196.invoke(closure.clj:1889)
+	at cljs.closure$watch.invoke(closure.clj:1938)
+	at cljs.repl$repl_STAR_$fn__5723$fn__5728.invoke(repl.cljc:881)
+	at clojure.core$binding_conveyor_fn$fn__4444.invoke(core.clj:1916)
+	at clojure.lang.AFn.run(AFn.java:22)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: clojure.lang.ExceptionInfo: Unmatched delimiter ] {:type :reader-exception, :line 64, :column 9, :file "/home/george/Dropbox/yaml-table/src/yaml_table/core.cljs"}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at clojure.tools.reader.reader_types$reader_error.doInvoke(reader_types.clj:331)
+	at clojure.lang.RestFn.invoke(RestFn.java:439)
+	at clojure.tools.reader$read_unmatched_delimiter.invoke(reader.clj:76)
+	at clojure.tools.reader$read_STAR_.invoke(reader.clj:889)
+	at clojure.tools.reader$read_delimited.invoke(reader.clj:195)
+	at clojure.tools.reader$read_list.invoke(reader.clj:208)
+	at clojure.tools.reader$read_STAR_.invoke(reader.clj:889)
+	at clojure.tools.reader$read_delimited.invoke(reader.clj:195)
+	at clojure.tools.reader$read_list.invoke(reader.clj:208)
+	at clojure.tools.reader$read_STAR_.invoke(reader.clj:889)
+	at clojure.tools.reader$read.invoke(reader.clj:938)
+	at cljs.analyzer$forms_seq_STAR_$forms_seq___3205$fn__3206$fn__3207.invoke(analyzer.cljc:2626)
+	at cljs.analyzer$forms_seq_STAR_$forms_seq___3205$fn__3206.invoke(analyzer.cljc:2619)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:507)
+	at clojure.core$seq__4128.invoke(core.clj:137)
+	at cljs.compiler$compile_file_STAR_$fn__4206.invoke(compiler.cljc:1219)
+	at cljs.compiler$with_core_cljs.invoke(compiler.cljc:1149)
+	at cljs.compiler$compile_file_STAR_.invoke(compiler.cljc:1172)
+	at cljs.compiler$compile_file$fn__4246.invoke(compiler.cljc:1331)
+	... 20 more
+
+Change detected, recompiling ...
+... done. Elapsed 0.079834991 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.369484477 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.368226351 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.346855788 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.460140245 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.340267559 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.409189127 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.446387986 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.475010465 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.376643719 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.451229385 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.302295224 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.366601204 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.51528992 seconds
+Change detected, recompiling ...
+... done. Elapsed 0.08955538 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.350747009 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.37859996 seconds

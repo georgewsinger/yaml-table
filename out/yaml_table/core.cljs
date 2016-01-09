@@ -40,10 +40,11 @@
     ) c ))
 
 
-(defn chan-array-of-objects-yaml->table [oc arg2]
+;printYamlTable = function(yamlConfig, arr, argDays) {
+(defn chan-table-package->table [yaml-config-chan arr-chan rows]
   (let 
-    [res (node/require "../resources/print-overview-table-from-array.js")]
-    (go (.printOverviewTableFromArray res (<! oc) arg2))))
+    [res (node/require "../resources/print-yaml-table.js")]
+    (go (.printYamlTable res (<! yaml-config-chan) (<! arr-chan) rows))))
 
 (defn path->chan-vec-ext-strings [path ext]
   (let [c (chan 1) dir (node/require "node-dir")]
@@ -53,15 +54,13 @@
     c ))
 
 (defn -main [& args]
-  (let [
-	minimist (node/require "minimist")
+  (let [minimist (node/require "minimist")
         argv     (minimist (clj->js (vec args)))
 	ext      (or (.-e argv) "yaml")
 	path     (or (aget (aget argv "_") 0) "/home/george/Dropbox") ;□ >1 paths; default path
         rows     (or (js/parseInt (.-r argv)) 10)
-        ;cv (-> path path->chan-vec-dec-strings)
-        ;mf (comp string->yaml-object-chan file-path->string-with-contents)]
-       ]
+	cv       (path->chan-vec-ext-strings path ext)
+        mf (comp string->yaml-object-chan file-path->string-with-contents)]
 
     ;(go 
     ;  (let [one (mapv mf (<! cv))]
