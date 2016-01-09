@@ -2565,3 +2565,301 @@ Compiling out/cljs/nodejs.cljs
 Compiling src/yaml_table/config.cljs
 Compiling src/yaml_table/core.cljs
 ... done. Elapsed 0.37859996 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.340113118 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.456435399 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.435441002 seconds
+Change detected, recompiling ...
+... done. Elapsed 0.080420514 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.298267112 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.398184844 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+WARNING: Use of undeclared Var yaml-table.core/yaml-table†config->chan-matching-yaml-object at line 61 src/yaml_table/core.cljs
+... done. Elapsed 0.318366685 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+WARNING: Use of undeclared Var yaml-table.core/yaml-table†config->chan-matching-yaml-object at line 61 src/yaml_table/core.cljs
+... done. Elapsed 0.451599199 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+WARNING: Use of undeclared Var yaml-table.core/yaml-table-config->chan-matching-yaml-object at line 61 src/yaml_table/core.cljs
+... done. Elapsed 0.444258798 seconds
+Change detected, recompiling ...
+... done. Elapsed 0.087884808 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+WARNING: Use of undeclared Var yaml-table.core/yaml-table-config->chan-matching-yaml-object at line 61 src/yaml_table/core.cljs
+... done. Elapsed 0.3133651 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+WARNING: Use of undeclared Var yaml-table.core/yaml-table-config->chan-matching-yaml-object at line 61 src/yaml_table/core.cljs
+... done. Elapsed 0.444243202 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+WARNING: Use of undeclared Var yaml-table.core/yaml-table-config->chan-matching-yaml-object at line 61 src/yaml_table/core.cljs
+... done. Elapsed 0.375781612 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+WARNING: Use of undeclared Var yaml-table.core/yaml-table-config->chan-matching-yaml-object at line 61 src/yaml_table/core.cljs
+... done. Elapsed 0.396487728 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+WARNING: Use of undeclared Var yaml-table.core/yaml-table-config->chan-matching-yaml-object at line 61 src/yaml_table/core.cljs
+... done. Elapsed 0.520286011 seconds
+Change detected, recompiling ...
+... done. Elapsed 0.122956456 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+WARNING: Use of undeclared Var yaml-table.core/yaml-table-config->chan-matching-yaml-object at line 61 src/yaml_table/core.cljs
+... done. Elapsed 0.369155262 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+WARNING: Use of undeclared Var yaml-table.core/yaml-table-config->chan-matching-yaml-object at line 61 src/yaml_table/core.cljs
+... done. Elapsed 0.501315906 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+WARNING: No such namespace: config, could not locate config.cljs, config.cljc, or Closure namespace "" at line 61 src/yaml_table/core.cljs
+WARNING: Use of undeclared Var config/yaml-table-config->chan-matching-yaml-object at line 61 src/yaml_table/core.cljs
+... done. Elapsed 0.355858449 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+WARNING: No such namespace: config, could not locate config.cljs, config.cljc, or Closure namespace "" at line 61 src/yaml_table/core.cljs
+WARNING: Use of undeclared Var config/yaml-table-config->chan-matching-yaml-object at line 61 src/yaml_table/core.cljs
+... done. Elapsed 0.449063153 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling /home/george/Dropbox/yaml-table/src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+WARNING: No such namespace: config, could not locate config.cljs, config.cljc, or Closure namespace "" at line 62 src/yaml_table/core.cljs
+WARNING: Use of undeclared Var config/yaml-table-config->chan-matching-yaml-object at line 62 src/yaml_table/core.cljs
+... done. Elapsed 0.469768779 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling /home/george/Dropbox/yaml-table/src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+WARNING: No such namespace: config, could not locate config.cljs, config.cljc, or Closure namespace "" at line 62 src/yaml_table/core.cljs
+WARNING: Use of undeclared Var config/yaml-table-config->chan-matching-yaml-object at line 62 src/yaml_table/core.cljs
+... done. Elapsed 0.48941105 seconds
+Change detected, recompiling ...
+clojure.lang.ExceptionInfo: Only [lib.ns & options] and lib.ns specs supported in :require / :require-macros; offending spec: :as at line 1 src/yaml_table/core.cljs {:file #object[java.io.File 0x6a5b366b "src/yaml_table/core.cljs"], :line 1, :column 1, :tag :cljs/analysis-error}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at cljs.analyzer$error.invoke(analyzer.cljc:568)
+	at cljs.analyzer$error.invoke(analyzer.cljc:566)
+	at cljs.analyzer$basic_validate_ns_spec.invoke(analyzer.cljc:1687)
+	at cljs.analyzer$parse_require_spec.invoke(analyzer.cljc:1739)
+	at clojure.lang.AFn.applyToHelper(AFn.java:171)
+	at clojure.lang.AFn.applyTo(AFn.java:144)
+	at clojure.core$apply.invoke(core.clj:636)
+	at clojure.core$partial$fn__4533.doInvoke(core.clj:2512)
+	at clojure.lang.RestFn.invoke(RestFn.java:408)
+	at clojure.core$map$fn__4553.invoke(core.clj:2624)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.Cons.next(Cons.java:39)
+	at clojure.lang.RT.next(RT.java:674)
+	at clojure.core$next__4112.invoke(core.clj:64)
+	at clojure.core$reduce1.invoke(core.clj:909)
+	at clojure.core$reduce1.invoke(core.clj:900)
+	at clojure.core$merge_with.doInvoke(core.clj:2936)
+	at clojure.lang.RestFn.applyTo(RestFn.java:139)
+	at clojure.core$apply.invoke(core.clj:634)
+	at cljs.analyzer$eval2948$fn__2950$fn__2955.invoke(analyzer.cljc:1926)
+	at clojure.core.protocols$fn__6523.invoke(protocols.clj:167)
+	at clojure.core.protocols$fn__6478$G__6473__6487.invoke(protocols.clj:19)
+	at clojure.core.protocols$seq_reduce.invoke(protocols.clj:31)
+	at clojure.core.protocols$fn__6506.invoke(protocols.clj:101)
+	at clojure.core.protocols$fn__6452$G__6447__6465.invoke(protocols.clj:13)
+	at clojure.core$reduce.invoke(core.clj:6519)
+	at cljs.analyzer$eval2948$fn__2950.invoke(analyzer.cljc:1909)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$parse_ns$fn__3221$fn__3222.invoke(analyzer.cljc:2704)
+	at cljs.analyzer$parse_ns$fn__3221.invoke(analyzer.cljc:2704)
+	at cljs.analyzer$parse_ns.invoke(analyzer.cljc:2682)
+	at cljs.analyzer$parse_ns.invoke(analyzer.cljc:2673)
+	at cljs.compiler$find_source.invoke(compiler.cljc:1389)
+	at clojure.core$map$fn__4553.invoke(core.clj:2624)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:507)
+	at clojure.core$seq__4128.invoke(core.clj:137)
+	at clojure.core$reduce1.invoke(core.clj:903)
+	at clojure.core$set.invoke(core.clj:3960)
+	at cljs.closure$add_dependency_sources.invoke(closure.clj:731)
+	at cljs.closure$build.invoke(closure.clj:1807)
+	at cljs.closure$watch$buildf__5196.invoke(closure.clj:1889)
+	at cljs.closure$watch.invoke(closure.clj:1938)
+	at cljs.repl$repl_STAR_$fn__5723$fn__5728.invoke(repl.cljc:881)
+	at clojure.core$binding_conveyor_fn$fn__4444.invoke(core.clj:1916)
+	at clojure.lang.AFn.run(AFn.java:22)
+	at java.lang.Thread.run(Thread.java:745)
+
+Change detected, recompiling ...
+clojure.lang.ExceptionInfo: Only [lib.ns & options] and lib.ns specs supported in :require / :require-macros; offending spec: :as at line 1 src/yaml_table/core.cljs {:file #object[java.io.File 0x7be47c5f "src/yaml_table/core.cljs"], :line 1, :column 1, :tag :cljs/analysis-error}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at cljs.analyzer$error.invoke(analyzer.cljc:568)
+	at cljs.analyzer$error.invoke(analyzer.cljc:566)
+	at cljs.analyzer$basic_validate_ns_spec.invoke(analyzer.cljc:1687)
+	at cljs.analyzer$parse_require_spec.invoke(analyzer.cljc:1739)
+	at clojure.lang.AFn.applyToHelper(AFn.java:171)
+	at clojure.lang.AFn.applyTo(AFn.java:144)
+	at clojure.core$apply.invoke(core.clj:636)
+	at clojure.core$partial$fn__4533.doInvoke(core.clj:2512)
+	at clojure.lang.RestFn.invoke(RestFn.java:408)
+	at clojure.core$map$fn__4553.invoke(core.clj:2624)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.Cons.next(Cons.java:39)
+	at clojure.lang.RT.next(RT.java:674)
+	at clojure.core$next__4112.invoke(core.clj:64)
+	at clojure.core$reduce1.invoke(core.clj:909)
+	at clojure.core$reduce1.invoke(core.clj:900)
+	at clojure.core$merge_with.doInvoke(core.clj:2936)
+	at clojure.lang.RestFn.applyTo(RestFn.java:139)
+	at clojure.core$apply.invoke(core.clj:634)
+	at cljs.analyzer$eval2948$fn__2950$fn__2955.invoke(analyzer.cljc:1926)
+	at clojure.core.protocols$fn__6523.invoke(protocols.clj:167)
+	at clojure.core.protocols$fn__6478$G__6473__6487.invoke(protocols.clj:19)
+	at clojure.core.protocols$seq_reduce.invoke(protocols.clj:31)
+	at clojure.core.protocols$fn__6506.invoke(protocols.clj:101)
+	at clojure.core.protocols$fn__6452$G__6447__6465.invoke(protocols.clj:13)
+	at clojure.core$reduce.invoke(core.clj:6519)
+	at cljs.analyzer$eval2948$fn__2950.invoke(analyzer.cljc:1909)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$parse_ns$fn__3221$fn__3222.invoke(analyzer.cljc:2704)
+	at cljs.analyzer$parse_ns$fn__3221.invoke(analyzer.cljc:2704)
+	at cljs.analyzer$parse_ns.invoke(analyzer.cljc:2682)
+	at cljs.analyzer$parse_ns.invoke(analyzer.cljc:2673)
+	at cljs.compiler$find_source.invoke(compiler.cljc:1389)
+	at clojure.core$map$fn__4553.invoke(core.clj:2624)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:507)
+	at clojure.core$seq__4128.invoke(core.clj:137)
+	at clojure.core$reduce1.invoke(core.clj:903)
+	at clojure.core$set.invoke(core.clj:3960)
+	at cljs.closure$add_dependency_sources.invoke(closure.clj:731)
+	at cljs.closure$build.invoke(closure.clj:1807)
+	at cljs.closure$watch$buildf__5196.invoke(closure.clj:1889)
+	at cljs.closure$watch.invoke(closure.clj:1938)
+	at cljs.repl$repl_STAR_$fn__5723$fn__5728.invoke(repl.cljc:881)
+	at clojure.core$binding_conveyor_fn$fn__4444.invoke(core.clj:1916)
+	at clojure.lang.AFn.run(AFn.java:22)
+	at java.lang.Thread.run(Thread.java:745)
+
+Change detected, recompiling ...
+clojure.lang.ExceptionInfo: Only [lib.ns & options] and lib.ns specs supported in :require / :require-macros; offending spec: :as at line 1 src/yaml_table/core.cljs {:file #object[java.io.File 0x323d6bb0 "src/yaml_table/core.cljs"], :line 1, :column 1, :tag :cljs/analysis-error}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at cljs.analyzer$error.invoke(analyzer.cljc:568)
+	at cljs.analyzer$error.invoke(analyzer.cljc:566)
+	at cljs.analyzer$basic_validate_ns_spec.invoke(analyzer.cljc:1687)
+	at cljs.analyzer$parse_require_spec.invoke(analyzer.cljc:1739)
+	at clojure.lang.AFn.applyToHelper(AFn.java:171)
+	at clojure.lang.AFn.applyTo(AFn.java:144)
+	at clojure.core$apply.invoke(core.clj:636)
+	at clojure.core$partial$fn__4533.doInvoke(core.clj:2512)
+	at clojure.lang.RestFn.invoke(RestFn.java:408)
+	at clojure.core$map$fn__4553.invoke(core.clj:2624)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.Cons.next(Cons.java:39)
+	at clojure.lang.RT.next(RT.java:674)
+	at clojure.core$next__4112.invoke(core.clj:64)
+	at clojure.core$reduce1.invoke(core.clj:909)
+	at clojure.core$reduce1.invoke(core.clj:900)
+	at clojure.core$merge_with.doInvoke(core.clj:2936)
+	at clojure.lang.RestFn.applyTo(RestFn.java:139)
+	at clojure.core$apply.invoke(core.clj:634)
+	at cljs.analyzer$eval2948$fn__2950$fn__2955.invoke(analyzer.cljc:1926)
+	at clojure.core.protocols$fn__6523.invoke(protocols.clj:167)
+	at clojure.core.protocols$fn__6478$G__6473__6487.invoke(protocols.clj:19)
+	at clojure.core.protocols$seq_reduce.invoke(protocols.clj:31)
+	at clojure.core.protocols$fn__6506.invoke(protocols.clj:101)
+	at clojure.core.protocols$fn__6452$G__6447__6465.invoke(protocols.clj:13)
+	at clojure.core$reduce.invoke(core.clj:6519)
+	at cljs.analyzer$eval2948$fn__2950.invoke(analyzer.cljc:1909)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$parse_ns$fn__3221$fn__3222.invoke(analyzer.cljc:2704)
+	at cljs.analyzer$parse_ns$fn__3221.invoke(analyzer.cljc:2704)
+	at cljs.analyzer$parse_ns.invoke(analyzer.cljc:2682)
+	at cljs.analyzer$parse_ns.invoke(analyzer.cljc:2673)
+	at cljs.compiler$find_source.invoke(compiler.cljc:1389)
+	at clojure.core$map$fn__4553.invoke(core.clj:2624)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:507)
+	at clojure.core$seq__4128.invoke(core.clj:137)
+	at clojure.core$reduce1.invoke(core.clj:903)
+	at clojure.core$set.invoke(core.clj:3960)
+	at cljs.closure$add_dependency_sources.invoke(closure.clj:731)
+	at cljs.closure$build.invoke(closure.clj:1807)
+	at cljs.closure$watch$buildf__5196.invoke(closure.clj:1889)
+	at cljs.closure$watch.invoke(closure.clj:1938)
+	at cljs.repl$repl_STAR_$fn__5723$fn__5728.invoke(repl.cljc:881)
+	at clojure.core$binding_conveyor_fn$fn__4444.invoke(core.clj:1916)
+	at clojure.lang.AFn.run(AFn.java:22)
+	at java.lang.Thread.run(Thread.java:745)
+
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.434660212 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling /home/george/Dropbox/yaml-table/src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.533038006 seconds
+Change detected, recompiling ...
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.341808347 seconds
+Change detected, recompiling ...
+Compiling out/cljs/nodejs.cljs
+Compiling /home/george/Dropbox/yaml-table/src/yaml_table/config.cljs
+Compiling src/yaml_table/core.cljs
+... done. Elapsed 0.415113666 seconds

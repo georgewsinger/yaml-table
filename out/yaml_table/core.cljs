@@ -1,6 +1,7 @@
 (ns yaml-table.core
   (:require [cljs.nodejs :as node]
-            [cljs.core.async :refer [close! take! put! chan <! >! alts!]])
+            [cljs.core.async :refer [close! take! put! chan <! >! alts!]]
+            [yaml-table.config :as config])
   (:require-macros [cljs.core.async.macros :refer [go go-loop]]))
 
 (node/enable-util-print!)
@@ -40,7 +41,6 @@
     ) c ))
 
 
-;printYamlTable = function(yamlConfig, arr, argDays) {
 (defn chan-table-package->table [yaml-config-chan arr-chan rows]
   (let 
     [res (node/require "../resources/print-yaml-table.js")]
@@ -54,19 +54,17 @@
     c ))
 
 (defn -main [& args]
-  (let [minimist (node/require "minimist")
-        argv     (minimist (clj->js (vec args)))
-	ext      (or (.-e argv) "yaml")
-	path     (or (aget (aget argv "_") 0) "/home/george/Dropbox") ;□ >1 paths; default path
-        rows     (or (js/parseInt (.-r argv)) 10)
-	cv       (path->chan-vec-ext-strings path ext)
-        mf (comp string->yaml-object-chan file-path->string-with-contents)]
-
-    ;(go 
-    ;  (let [one (mapv mf (<! cv))]
-    ;    (chan-array-of-objects-yaml->table 
-    ;      (vector-with-channels->channel-with-array one) days)))
-
-  ))
+  (let [minimist         (node/require "minimist")
+        argv             (minimist (clj->js (vec args)))
+	ext              (or (.-e argv) "yaml")
+	path             (or (aget (aget argv "_") 0) "/home/george/Dropbox") ;□ >1 paths; default path
+        rows             (or (js/parseInt (.-r argv)) 10)
+        yaml-config-chan (config/yaml-table-config->chan-matching-yaml-object ext)
+	cv               (path->chan-vec-ext-strings path ext)
+        mf               (comp string->yaml-object-chan file-path->string-with-contents)]
+    (go 
+      (let [one (mapv mf (<! cv))
+            arr-chan (vector-with-channels->channel-with-array one)]
+        (chan-table-package->table yaml-config-chan arr-chan rows)))))
 
 (set! *main-cli-fn* -main)
