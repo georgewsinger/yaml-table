@@ -1,32 +1,33 @@
 # yaml-table
 
-Yaml-table converts [yaml documents](https://en.wikipedia.org/wiki/YAML) to console tables for easy displaying in your terminal.
+Yaml-table (written in ClojureScript but compiled to pure nodejs) converts [yaml documents](https://en.wikipedia.org/wiki/YAML) to console tables for easy displaying in your terminal. An example with one file:
 
-	$ yaml-table file1.yaml file2.yaml
+	$ yaml-table file1.yaml
 
-	+----+----+
-	| :a | :b |
-	+----+----+
-	| 11 |    |
-	| 3  | 22 |
-	+----+----+
+	+----+----+----+----+
+	| A  | B  | C  | D  |
+	+----+----+----+----+
+	| 11 | 12 | 15 | 16 |
+	+----+----+----+----+
+
+An example with a directory full of yaml files:
 
 	$ yaml-table dir
 
-	+------------+---------------------------------------------------+----------+--------+------------+
-	|   :date    |                    :hypothesis                    | :vrange  |   :pr  | :expirdate |
-	+------------+---------------------------------------------------+----------+--------+------------+
-	| 2016-01-04 |                             UML activity diagram. | [-2, 20] |    0.9 |            |
-	| 2016-01-04 |                             UML activity diagram. | [-2, 20] |    0.9 |            |
-	| 2016-01-07 |                          Draft yaml-table README. |          |        |            |
-	| 2016-01-04 |                       [SE posts, GCC Review, Bed] |          | [0, 3] |            |
-	| 2015-12-25 |                              Skip async sections. |  [-1, 2] |    0.8 |            |
-	| 2015-12-23 |                                   Taleb write-up. |   [0, 7] |    0.2 | 2015-12-23 |
-	| 2016-01-04 |           Take w/contract: record usage in table. | [-∞, 12] |   0.12 | 2015-12-31 |
-	| 2015-12-28 | Read Lein documentation -> Clojure(NodeJS)Script. |          |        |            |
-	+------------+---------------------------------------------------+----------+--------+------------+
+	+------------+----------+--------+------------+
+	|    Date    |  Range   |   Pr   | Expiration |
+	+------------+----------+--------+------------+
+	| 2016-01-04 | [-2, 20] |    0.9 |            |
+	| 2016-01-04 | [-2, 20] |    0.9 |            |
+	| 2016-01-07 |          |        |            |
+	| 2016-01-04 |          | [0, 3] |            |
+	| 2015-12-25 |  [-1, 2] |    0.8 |            |
+	| 2015-12-23 |   [0, 7] |    0.2 | 2015-12-23 |
+	| 2016-01-04 | [-∞, 12] |   0.12 | 2015-12-31 |
+	| 2015-12-28 |          |        |            |
+	+------------+----------+--------+------------+
 
-You can customize which fields from your files get displayed in table outputs. See below for configuration options.
+You can customize table headers as well as which fields from your yaml files should be displayed. See below for configuration options.
 
 # Installation & Usage
 
@@ -36,7 +37,7 @@ To install, run:
 
 To use:
 
-`$ yaml-table <filename1> <filename2> ...`
+`$ yaml-table <yaml_filename>`
 
 Or, to traverse the contents of a directory (and its subdirectories) for all yaml files:
 
@@ -44,32 +45,50 @@ Or, to traverse the contents of a directory (and its subdirectories) for all yam
 
 # Configuration
 
-Create `~/.yaml-table` in your home directory to configure yaml-table. This file is, itself, in the yaml format:
+Create `~/.yaml-table` in your home directory to configure yaml-table. This file is itself in the yaml format:
 
-```
----
-file_extension: "yaml"
-headers:
-	header1: "Header 1"
-	header2: "Header 2"
-	header3: "Header 3"
-	header4: "Header 4"
-	header5: "Header 5"
-...
----
-file_extension: "yaml2"
-headers:
-	header1: "Header 1"
-	header2: "Header 2"
-	header3: "Header 3"
-	header4: "Header 4"
-	header5: "Header 5"
-...
-```
+	---
+	table: "dec-table"
+	file_extension: ".dec"
+	sort_field: "date"
+	options:
+		skinny: true
+		intersectionCharacter: "Y"
+		columns:
+			- 
+			 field: "date"
+			 name: "Date"
+	...
+	---
+	table: "table-name"
+	file_extension: ".yaml"
+	sort_field: "header1"
+	options:
+		skinny: true
+		intersectionCharacter: "X"
+		columns:
+			- 
+			 field: "header1"
+			 name: "Header 1"
+			- 
+			 field: "header2"
+			 name: "Header 2"
+			- 
+			 field: "header3"
+			 name: "Header 3"
+			- 
+			 field: "header4"
+			 name: "Header 4"
+			- 
+			 field: "header5"
+			 name: "Header 5"
+	...
 
-Each yaml document encapsulated between "---" and "..." lines specifies a file extension and which fields should be displayed from that file extension (as well as what their table headers should look like).
+Each yaml document -- encapsulated between "---" and "..." -- specifies a table and its fields and headers.  Tables are given a name (accessed via `-n` in the command line), an extension (`-e`), and a number of rows (`-r`).  You can also specifiy in `~/.yaml-table` which field should be used to sort the table.  These options default to `-n default`, `-e .yaml`, and `-r 15` when left unspecified at the prompt.
 
-	$ yaml-table -e yaml2 file1.yaml2 file2.yaml2
+Using the config above, a complete `yaml-table` command might look as follows:
+
+	$ yaml-table -e .yaml -n table-name -r 10 dir
 
 	+------------+------------+------------+------------+------------+
 	|  Header 1  |  Header 2  |  Header 3  |  Header 4  |  Header 5  |
@@ -78,6 +97,10 @@ Each yaml document encapsulated between "---" and "..." lines specifies a file e
 	| 22         |            |            |  55        | 1337       |
 	+------------+------------+------------+------------+------------+
 
-# Notes
+# TODO
 
-This project is written in [ClojureScript](https://github.com/clojure/clojurescript/wiki) and compiled to pure nodejs via the Google Closure Compiler(https://developers.google.com/closure/compiler/?hl=en).
+- Allow the display of nested fields.
+- Make yaml-table intelligently infer table headers from files (instead of forcing users to manually specify them within `~/.yaml-table`)
+
+This project is written in [ClojureScript](https://github.com/clojure/clojurescript/wiki) and compiled to pure nodejs via the [Google Closure Compiler](https://developers.google.com/closure/compiler/?hl=en).
+

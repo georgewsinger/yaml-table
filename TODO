@@ -1,3 +1,14 @@
+# Lessons
+
+In exerns, you name parent vars after the their node/require file name (I think). Not their temporary variable name.
+
+# Questions
+
+1. Why do these not return the same thing?
+
+	   (.-file_extension returned-yaml-object)
+	   (aget returned-yaml-object "file_extension")
+
 # Code Dump
 
 (defn yaml-table-config->chan-array-header-columns [ext]
@@ -6,3 +17,13 @@
     (fill channel of size 1 with first yaml document that matches ext)
     (suck document from channel and convert it into js array columns object)
     (construct js columns object from matching object)); stick it in channel))
+
+# ascii code tables
+
+https://www.npmjs.com/package/asciitable
+https://github.com/quimcalpe/ansi-color-table
+
+# TODO
+
+- use foreign-libs:
+http://lukevanderhart.com/2011/09/30/using-javascript-and-clojurescript.html

@@ -3,7 +3,7 @@ process.env.NODE_DISABLE_COLORS = true;
 var net  = require("net");
 var vm   = require("vm");
 var dom  = require("domain").create();
-var PORT = 57068;
+var PORT = 49634;
 
 try {
     require("source-map-support").install();

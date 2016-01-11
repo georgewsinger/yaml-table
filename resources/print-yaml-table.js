@@ -11,9 +11,9 @@ sortArrayBySortField = function(sortField, arr) {
 
 	function compare(a,b) {
 	  if (a[sortField] < b[sortField])
-	    return -1;
-	  else if (a[sortField] > b[sortField])
 	    return 1;
+	  else if (a[sortField] > b[sortField])
+	    return -1;
 	  else 
 	    return 0;
 	}
@@ -45,19 +45,24 @@ function removeNulls(obj) {
 function removeNullsFromArray(arr) {
   var arr1 = arr;
   for (var k in arr1) {
-    arr1[k] = removeNulls(obj);
+    arr1[k] = removeNulls(arr1[k]);
   }
   return arr1;
 }
 
 printYamlTable = function(yamlConfig, arr, argDays) {
 	var argDays = argDays ? argDays : 20; //default to 20 rows
+	//console.log("argDays: ", argDays);
 	var ext = yamlConfig.file_extension;
+	//console.log("ext: ", ext);
 	var sortField = yamlConfig.sort_field;
+	//console.log("sortField: ", sortField);
 	var options = yamlConfig.options;
-	var rows = removeNullsFromArray(sortArrayBySortField(sortField, arr)).slice(0, argDays);
+	//console.log("options: ", options);
+	var rows = removeNullsFromArray(sortArrayBySortField(sortField, arr)).slice(0, argDays)
 
 	console.log(asciitable(options, rows));
+	//console.log(asciitable(rows));
 }
 
 module.exports.printYamlTable = printYamlTable;

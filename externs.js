@@ -17,6 +17,12 @@ dir.files = function(arg1, callback){};
 var node = {};
 node.process = {};
 node.process.argv = {};
+node.process.env = {};
+node.process.env.HOME = {};
+
+process = {};
+process.argv = {};
+process.argv.HOME = {};
 
 var global = {};
 function require(){};

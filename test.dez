@@ -1,0 +1,22 @@
+---
+decision: "1900 One Thing."
+hypothesis: "Draft yaml-table README."
+probability: 
+exposure: 
+expiration: 
+outcome: 
+brier_score: 
+date: "2016-01-07"
+
+posteriors:
+        H_1: "Clojure."
+
+knowns:
+        k_1: Starting late.
+        k_2: Lack of actual outcomes lately.
+
+unknowns: 
+        u_1: 
+
+notes: 
+...
