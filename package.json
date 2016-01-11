@@ -1,0 +1,34 @@
+{
+  "name": "yaml-table",
+  "version": "1.0.0",
+  "description": "Converts yaml documents into ascii console tables.",
+  "main": "lib/yaml-table.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "yamljs": "^0.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgewsinger/yaml-table.git"
+  },
+  "keywords": [
+    "yaml",
+    "ascii",
+    "console",
+    "table",
+    "terminal",
+    "markdown"
+  ],
+  "author": "George Singer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/georgewsinger/yaml-table/issues"
+  },
+  "homepage": "https://github.com/georgewsinger/yaml-table#readme"
+}
