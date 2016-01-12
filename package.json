@@ -1,13 +1,16 @@
 {
   "name": "yaml-table",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Converts yaml documents into ascii console tables.",
   "main": "lib/yaml-table.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "yamljs": "^0.2.4"
+    "js-yaml": "3.4.6",
+    "asciitable": "0.0.7",
+    "node-dir": "0.1.11",
+    "minimist": "1.2.0"
   },
   "devDependencies": {},
   "scripts": {

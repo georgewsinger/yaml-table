@@ -294,3 +294,4 @@ as
 (load-file "repl.clj")
 (is (= 5 (+ 2 2)))
 (load-file "repl.clj")
+(/ 15 670)
