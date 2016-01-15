@@ -58,18 +58,17 @@
   (let [minimist         (node/require "minimist")
         argv             (minimist (clj->js (vec args)))
 	ext              (or (.-e argv) "yaml")
-	path             (or (aget (aget argv "_") 0) "/home/george/Dropbox") ;□ >1 paths; default path
-	table-name       (or (aget argv "n") "overview") ;□ >1 paths; default path
+	path             (or (aget (aget argv "_") 0) "$HOME") ;□ >1 paths; default path
+	table-name       (or (aget argv "n") "default") ;□ >1 paths; default path
         rows             (or (js/parseInt (.-r argv)) 10)
         yaml-config-chan (config/yaml-table-config->chan-matching-yaml-object table-name)
 	cv               (path->chan-vec-ext-strings path ext)
-        mf               (comp string->yaml-object-chan file-path->string-with-contents)]
-    (println "path top level: " path)
+        mf               (comp string->yaml-object-chan file-path->string-with-contents)
+        ]
+
     (go 
       (let [one (mapv mf (<! cv))
             arr-chan (vector-with-channels->channel-with-array one)]
-        (chan-table-package->table yaml-config-chan arr-chan rows)))
-
-))
+        (chan-table-package->table yaml-config-chan arr-chan rows)))))
 
 (set! *main-cli-fn* -main)

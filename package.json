@@ -1,6 +1,7 @@
 {
   "name": "yaml-table",
   "version": "1.0.2",
+  "bin": "lib/yaml-table.js",
   "description": "Converts yaml documents into ascii console tables.",
   "main": "lib/yaml-table.js",
   "directories": {
